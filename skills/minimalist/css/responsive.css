@@ -1,0 +1,99 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+     
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .mainmenu ul.nav.navbar-nav li a { padding-right: 20px }
+    .social-links a { padding-left: 15px }
+    .footer-top { padding-bottom: 10px }
+    .footer-wid { margin-bottom: 50px }
+    .slide-bg { background-position: center top !important }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .navbar-toggle {
+        border-color: #333;
+        float: left;
+    }
+    .navbar-toggle .icon-bar { background-color: #333 }
+    .mainmenu .navbar-nav { margin: 0 }
+    .masonry-blog > div {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .footer-top { padding-bottom: 10px }
+    .footer-wid { margin-bottom: 50px }
+    .copyright-text,
+    .scroll-to-top { text-align: center }
+    .social-links {
+        position: absolute;
+        right: 15px;
+        top: 0;
+        width: 220px;
+    }
+    .slide-text h1 { font-size: 40px }
+    .slide-text { font-size: 18px }
+    .btn-bordered { padding: 10px 20px }
+    .logo h1 {
+        font-size: 25px;
+        margin: 15px 0;
+    }
+    .floating-search-right { top: -47px }
+    .slide-bg,
+    .breadcroumb-bg { background-position: center top !important }
+    .single-post { margin-bottom: 15px }
+    .single-post:hover .post-samary { height: 100px }
+    .column-padding-fix { padding-bottom: 60px }
+    .medium-layout {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .slider { height: 380px }
+    .main-content { padding: 20px 0 }
+    .post-share {
+        border-left: 0 solid #999;
+        display: block;
+        margin-left: 0;
+        margin-top: 10px;
+        padding-left: 0;
+        position: relative;
+    }
+    .share-buttons-wrapper {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: alpha(opacity=100);
+        opacity: 1;
+        position: relative;
+        right: 0;
+        text-align: right;
+        top: 0;
+        visibility: visible;
+        width: auto;
+    }
+    .post-share:hover .share-buttons-wrapper { right: auto }
+    .post-author-meta { padding: 20px }
+    .author-photo {
+        left: 0;
+        margin-bottom: 20px;
+        position: relative;
+        top: 0;
+        width: auto;
+    }
+    .author-right-info { padding-left: 0 }
+    .comment-content span {
+        display: block;
+        float: none;
+        margin-left: 0;
+        margin-top: 8px;
+    }
+    .page-title h2 { font-size: 35px }
+    .page-title { font-size: 18px }
+    .post-info-top h2 { font-size: 25px }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

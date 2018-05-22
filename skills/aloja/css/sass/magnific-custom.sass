@@ -1,0 +1,76 @@
+/*######################################################## */
+/*-------------------- PopUp Form Custom ------------------*/
+/* Styles for dialog window */
+.popup-form
+	background: #e5e5e5
+	padding: 20px 30px
+	text-align: left
+	max-width: 400px
+	margin: 40px auto
+	position: relative
+
+/**
+ * Fade-zoom animation for first dialog
+ */
+
+/* start state */
+.my-mfp-zoom-in .zoom-anim-dialog
+	opacity: 0
+	transition: all 0.2s ease-in-out
+	transform: scale(0.8)
+
+/* animate in */
+.my-mfp-zoom-in.mfp-ready .zoom-anim-dialog
+	opacity: 1
+	transform: scale(1)
+
+/* animate out */
+.my-mfp-zoom-in.mfp-removing .zoom-anim-dialog	
+	transform: scale(0.8)
+	opacity: 0
+
+/* Dark overlay, start state */
+.my-mfp-zoom-in.mfp-bg
+	opacity: 0
+	transition: opacity 0.3s ease-out
+
+/* animate in */
+.my-mfp-zoom-in.mfp-ready.mfp-bg
+	opacity: 0.8
+/* animate out */
+.my-mfp-zoom-in.mfp-removing.mfp-bg
+	opacity: 0
+
+/**
+ * Fade-move animation for second dialog
+ */
+
+/* at start */
+.my-mfp-slide-bottom .zoom-anim-dialog
+	opacity: 0
+	transition: all 0.2s ease-out
+	transform: translateY(-20px) perspective( 600px ) rotateX( 10deg )
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog
+	opacity: 1
+	transform: translateY(0) perspective( 600px ) rotateX( 0 )
+
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog
+	opacity: 0
+	transform: translateY(-10px) perspective( 600px ) rotateX( 10deg )
+
+/* Dark overlay, start state */
+.my-mfp-slide-bottom.mfp-bg
+	opacity: 0
+	transition: opacity 0.3s ease-out
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready.mfp-bg
+	opacity: 0.8
+
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing.mfp-bg
+	opacity: 0
+/*---------- End PopUp Form Custom ----------*/

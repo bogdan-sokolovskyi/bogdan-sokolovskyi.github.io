@@ -1,0 +1,70 @@
+
+@media only screen and (max-width: 1920px) {
+	#portfolio .portfolio-item{width:24.9%;}
+	.media.service-box {margin: 120px 0 25px 0;}
+}
+@media only screen and (max-width: 1600px) {
+	#portfolio .portfolio-item{width:24.9%;}
+	.media.service-box {margin: 60px 0 25px 0;}
+}
+@media only screen and (max-width: 1280px) {
+	.case-item{padding-top:10px;}
+	.casestudy-left-container{width:100%;}
+	.blog-img{overflow:hidden; height:440px;}
+	.blog-img img {width: auto;}
+	.blog-content {top:5px;}
+
+}
+@media only screen and (max-width: 1024px) {
+.casestudy-left .media.service-box{margin:0px;}
+.case-item{padding-top:20px;}
+.owl-controls.clickable{display:none !important;}
+.blog-img{overflow:hidden; height:466px;}
+.blog-content p{font-size:13px;}
+.blog-content {top:15px; width:50%; position:relative; left:0px;}
+}
+@media only screen and (max-width: 980px) {
+.casestudy-left{width:100%; position:relative; margin:0; height:auto; padding:0; background:#fff;}
+.casestudy-right{width:100%;}
+#meet-team .team-member{margin-bottom:20px;}
+.blog-content{margin:0px;}
+.blog-img{overflow:hidden; height:auto;}
+.blog-img img{width:100%;}
+.blog-content {top:80px;}
+}
+@media only screen and (max-width: 853px) {
+	.blog-content{width:100%; position:relative; left:0px; top:0px;}
+	.blog-img{width:100%;}
+}
+@media only screen and (max-width: 768px) {
+	#portfolio .portfolio-item{width:49.9%;}
+	.circle-item{width:33%;}
+	.circle-item:nth-child(4){margin-left:120px;}
+	.img-responsive{margin:0 auto; display:block; margin-top:20px; float:none;}
+	#portfolio .portfolio-filter > li .divide{display:none;}
+	#portfolio .portfolio-filter > li a{padding:0 10px;}
+	#meet-team .team-member .team-img img{margin:0px;}
+	.blog-content{min-height:200px;}
+	.slider-inner  .col-xs-offset-1{margin:0px;}
+	#main-slider .slider-inner h2{font-size:48px;}
+	#owl-client .owl-item .item{margin:0 auto; display:table;}
+}
+@media only screen and (max-width: 640px) {
+	.circle-item:nth-child(4){margin-left:80px;}
+	#portfolio .portfolio-filter > li a{padding:0 7px; font-size:13px;}
+	#main-slider .slider-inner h2{font-size:38px;}
+	.back-top{display:none;}
+	#download{padding:55px 0;}
+	.contact-container{padding:20px 0;}
+	div.loading-invisible{padding-top:60%;}
+}
+@media only screen and (max-width: 480px) {
+	.circle-item{width:50%;}
+	.circle-item:nth-child(4){margin-left:0px;}
+	.circle-item:nth-child(5){margin-left:100px;}
+
+}
+@media only screen and (max-width: 360px) {
+	#portfolio .portfolio-item{width:99.9%;}
+	#main-slider .slider-inner .head-title{margin-top:145px;}
+}

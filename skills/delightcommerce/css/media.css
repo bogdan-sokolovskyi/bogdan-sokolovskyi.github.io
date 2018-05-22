@@ -1,0 +1,271 @@
+/******** Large Devices, Wide Screens ********/
+@media only screen and (max-width : 1200px) {
+	.bg-text-area h1 {
+		font-size: 36px;
+	}
+	.bg-text-area p {
+		font-size: 22px;
+		margin: 10px 0 30px;
+	}
+	.portfolio-filter li:last-child  {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.portfolio-filter li:first-child {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	.portfolio .item-link .item-title {
+		font-size: 16px;
+	}
+	.portfolio .item-link .item-description span {
+		font-size: 12px;
+	}
+	.portfolio .item-link.no-link-hover .item-inner {
+		padding: 108px 0 108px 49px;
+	}
+	.portfolio {
+		margin-bottom: 50px;
+	}
+	.tc-item {
+		width: 190px;
+	}
+	.services {
+		height: auto;
+		margin-bottom: 60px;
+	}
+	.service-desc, .section-title {
+		padding: 0;
+	}
+	.service-bg > img {
+		display: none;
+	}
+	.testimon-bxslider .text-col {
+		width: 860px;
+	}
+}
+/******** Normal desktop :992px. ********/
+@media (min-width: 992px) and (max-width: 1169px) {
+	.main-menu ul#nav li .mega-menu {
+		width: 950px;
+	}
+	.main-menu ul li > ul {
+		width: 190px;
+	}
+
+}
+/******** Tablet desktop :768px. ********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.mobile-menu-area {
+		display: none;
+	}
+	.logo-area {
+		padding: 0 0 15px;
+		text-align: center;
+	}
+	.main-menu ul > li > a {
+		padding: 40px 12px;
+	}
+	.main-menu ul#nav li .mega-menu {
+		width: 750px;
+	}
+	.main-menu ul#nav li .mega-menu .single > li > a {
+		font-size: 12px;
+		margin: 0 25px;
+		padding: 8px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.page-wrapper {
+		padding: 50px 0 0;
+	}
+	/*.page-title {
+		margin-bottom: 50px;
+	}*/
+	.portfolio .portfolio-item {
+		width: 33.33%;
+	}
+	.portfolio.columns4 .portfolio-item {
+		width: 33.33%;
+	}
+	.notes-startup {
+		padding: 60px 30px;
+	}
+	.on-business {
+		padding: 0;
+	}
+	.tg .table-social {
+		display: block;
+		position: relative;
+		margin-bottom: 3px;
+	}
+	.tg .social-area span {
+		padding-left: 0;
+	}
+	.tg .tg-4jb6, .tg .tg-dvgw {
+		vertical-align: middle;
+	}
+	.contact-section form .btn-action {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.contact-section form .captcha-number {
+		width: auto;
+	}
+	.testimon-bxslider .text-col {
+		width: 620px;
+	}
+}
+/******** small mobile :320px. ********/
+@media (max-width: 767px) {
+	.container {width:300px}
+	.mobile-menu-area {
+		display: block;
+	}
+	.logo-area {
+		/*position: absolute;
+		top: 0;
+		left: 0;*/
+		width: 200px;
+	}
+	.bg-text-area {
+		top: 46%;
+	}
+	.bg-text-area h1 {
+		font-size: 24px;
+	}
+	.btn-action, .btn-action-reverse {
+		display: block;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.btn-action-reverse {
+		margin-top: 20px;
+	}
+	.portfolio .portfolio-item {
+		width: 50%;
+	}
+	.portfolio.columns4 .portfolio-item {
+		width: 50%;
+	}
+	.wework-bg {
+		padding: 72px 42px;
+	}
+	.left-colum .section-title, .right-colum .section-title {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.tg {
+		margin-bottom: 0;
+	}
+	.hid-hd {
+		display: block;
+		width: 100%;
+	}
+	.contact-section form .captcha-number {
+		width: 100%;
+		margin-top: 38px;
+		float: none;
+	}
+	.contact-section .address-box:last-child {
+		margin: 0 0 34px 0;
+	}
+	.company-desc {
+		padding-left: 0;
+	}
+	.about-company {
+		text-align: center;
+	}
+	.about-company img {
+		position: relative;
+	}
+	.counter-area {
+		width: 290px;
+		padding: 4px;
+	}
+	.tg-counter td, .tg-counter th {
+		padding: 6px;
+	}
+	.testimon-bxslider .text-col {
+		width: 340px;
+	}
+	/*Mmenu*/
+	.toggle-mnu {
+		display: block;
+	}
+	.toggle-mnu {
+		margin-top: 34px;
+	}
+	/*.mm-menu {
+		!*width: 100%;
+		min-width: 100%;*!
+		!*max-width: 440px;*!
+	}
+	html.mm-opening .mm-slideout {
+		!*-webkit-transform: translate(100%, 0);
+		-moz-transform: translate(100%, 0);
+		-ms-transform: translate(100%, 0);
+		-o-transform: translate(100%, 0);
+		transform: translate(100%, 0);*!
+	}*/
+}
+/********* Large Mobile :480px. *********/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container {width:450px}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.bg-text-area h1 {
+		font-size: 18px;
+	}
+	.logo-area {
+		width: 150px;
+		top: 3px;
+	}
+	.portfolio .portfolio-item {
+		width: 100%;
+	}
+	.portfolio.columns4 .portfolio-item {
+		width: 100%;
+	}
+	.portfolio .item-link.no-link-hover .item-inner {
+		padding: 108px 0 108px 76px;
+	}
+	.wework-bg {
+		padding: 72px 0;
+	}
+	.notes-area {
+		padding: 38px 18px;
+	}
+	.notes-startup {
+		padding: 30px 14px;
+	}
+	.testimon {
+		text-align: center;
+	}
+	.testimon img {
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.testim-desc {
+		padding-left: 0;
+	}
+	.contact-area {
+		padding: 30px 30px;
+	}
+	.testimon-bxslider .text-col {
+		width: 200px;
+	}
+	.toggle-mnu {
+		margin-top: 28px;
+	}
+}
+@media (min-width: 767px) {
+	.toggle-mnu, #menu, html.mm-blocking #mm-blocker {
+		display: none;
+	}
+
+	html.mm-opening .mm-slideout {
+		transform: translate(0px, 0px);
+	}
+}

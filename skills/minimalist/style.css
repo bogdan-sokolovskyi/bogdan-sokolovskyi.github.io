@@ -1,0 +1,791 @@
+@charset "utf-8";
+/*
+Template Name: Minimalist
+Template Author: Bogdan Sokolovskyi
+Author URL: https://sokolovskyi.ml/skills/minimalist/
+
+-----------------------------------------------------------
+Table of Index
+-----------------------------------------------------------
+
+1. Base CSS
+2. Header
+3. Slider
+4. Maincontent
+5. Page
+6. Post
+7. Comments
+8. Footer
+9. Peloader
+
+----------------------------------------------------------
+
+================ CSS Starts =====================
+
+-----------------------------------------------------------
+Base CSS
+-----------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { margin: 0 0 20px }
+body { font-family: "Raleway", sans-serif }
+input[type="text"],
+input[type="email"],
+input[type="url"],
+textarea {
+    background: none repeat scroll 0 0 #f2f2f2;
+    border: medium none;
+    padding: 15px 15px;
+}
+/*-----------------------------------------------------------
+Header CSS
+-----------------------------------------------------------*/
+.header-top-area {
+    background: none repeat scroll 0 0 #fbfcfb;
+    border-bottom: 1px solid #eee;
+}
+.mainmenu a:focus { outline: none }
+.mainmenu ul.nav.navbar-nav li a {
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 0;
+    padding-right: 25px;
+    text-transform: uppercase;
+}
+.mainmenu ul.nav.navbar-nav li:hover > a,
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+    background: none;
+    color: #7D8554;
+}
+.mainmenu .dropdown-menu { left: -15px }
+.mainmenu ul.nav.navbar-nav li ul li a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mainmenu .navbar-collapse { padding-left: 0 }
+.social-links a {
+    color: #333;
+    display: inline-block;
+    font-size: 16px;
+    padding: 13px 0 13px 20px;
+}
+.social-links a:hover { color: #7d8554 }
+.floating-search-right {
+    position: absolute;
+    right: 15px;
+    top: 27px;
+}
+.floating-search-right input[type=search] {
+    background: url(img/search-icon.png) no-repeat scroll right center rgba(0, 0, 0, 0);
+    border: medium none;
+    padding: 8px 15px;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 19px;
+}
+.floating-search-right input[type="search"]:focus {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ddd;
+    width: 250px;
+}
+.logo a { color: #333 }
+.logo a:hover {
+    color: #7D8554;
+    text-decoration: none;
+}
+.logo h1 {
+    font-weight: 700;
+    margin: 25px 0;
+    text-transform: uppercase;
+}
+/*-----------------------------------------------------------
+Slider CSS
+-----------------------------------------------------------*/
+.slider { position: relative }
+.slider { height: 520px }
+.slide-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(img/slide-bg.jpg) no-repeat scroll 0 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+}
+.slide-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    content: "";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+    filter: alpha(opacity=35);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+    filter: alpha(opacity=35);
+    opacity: 0.35;
+}
+.slide-text-table {
+    color: #fff;
+    display: table;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+.slide-text-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.slide-text {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 24px;
+}
+.slide-text h1 {
+    font-size: 56px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    font-weight: 700;
+}
+.btn-bordered {
+    border: 2px solid;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 25px;
+    padding: 15px 25px;
+}
+.btn-bordered:hover,
+.btn-bordered:focus {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+}
+/*-----------------------------------------------------------
+Maincontent CSS
+-----------------------------------------------------------*/
+.main-content { padding: 50px 0 }
+.single-post {
+    overflow: hidden;
+    position: relative;
+}
+.square-post a,
+.long-post a { height: 300px }
+.large-post a { height: 600px }
+.long-posts-wrap a { height: 400px }
+.single-post a {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+.post-featured-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.post-featured-img:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    filter: alpha(opacity=10);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    filter: alpha(opacity=10);
+    opacity: 0.1;
+    z-index: -1;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.post-featured-img.square_1 { background-image: url(img/post-1.jpg) }
+.post-featured-img.square_2 { background-image: url(img/post-2.jpg) }
+.post-featured-img.square_3 { background-image: url(img/post-3.jpg) }
+.post-featured-img.square_4 { background-image: url(img/post-4.jpg) }
+.post-featured-img.square_5 { background-image: url(img/post-5.jpg) }
+.post-featured-img.square_6 { background-image: url(img/post-6.jpg) }
+.post-featured-img.square_7 { background-image: url(img/post-7.jpg) }
+.post-featured-img.square_8 { background-image: url(img/post-8.jpg) }
+.post-featured-img.full_1 { background-image: url(img/post-full.jpg) }
+.post-featured-img.long_1 { background-image: url(img/post-medium-1.jpg) }
+.post-featured-img.long_2 { background-image: url(img/post-medium-2.jpg) }
+.post-featured-img.large_1 { background-image: url(img/post-w-1.jpg) }
+.post-featured-img.large_2 { background-image: url(img/post-w-2.jpg) }
+.column-padding-fix { padding: 0 15px }
+.column-padding-fix,
+.long-posts-wrap { margin: 30px 0 }
+.column-padding-fix .row > div { padding: 0 }
+.column-padding-fix .cat-sec-title { margin-left: -15px }
+.cat-sec-title,
+.comment-area h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+.single-post a:after {
+    border: 5px solid #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    display: none;
+}
+.post-date {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    left: -100%;
+    padding: 10px 20px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    z-index: 2;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.post-date p { margin: 0 }
+.post-date p.month-name {
+    font-size: 12px;
+    font-weight: 500;
+}
+.post-bottom-info {
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    z-index: 3;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.post-bottom-info h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+.post-date::after {
+    background: none repeat scroll 0 0 #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.post-samary {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    height: 0;
+    overflow: hidden;
+}
+.post-samary p { margin-bottom: 0 }
+.single-post:hover .post-samary {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    height: 80px;
+}
+.single-post:hover .post-featured-img {
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.single-post:hover .post-featured-img:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: alpha(opacity=40);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+}
+.single-post:hover .post-date { left: 0 }
+.single-post:hover .post-bottom-info { bottom: -50px }
+.single-post:hover a:after { display: block }
+.post-navigation i.fa { margin-right: 5px }
+.post-navigation a { color: #333 }
+/*-----------------------------------------------------------
+Single page CSS
+-----------------------------------------------------------*/
+.page-breadcroumb { position: relative }
+.page-breadcroumb .container {
+    position: relative;
+    z-index: 99;
+}
+.breadcroumb-bg {
+    position: absolute;
+    background: url(img/breadcroumb-bg.jpg) no-repeat scroll 0 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.breadcroumb-bg:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    z-index: -1;
+}
+.page-title h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.page-title {
+    color: #fff;
+    font-size: 24px;
+    overflow: hidden;
+    padding: 40px 0;
+}
+.entry-content {
+    font-size: 15px;
+    line-height: 25px;
+}
+.entry-content blockquote {
+    border-color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0;
+    padding: 10px 0 10px 20px;
+}
+.centered-content {
+    display: table;
+    height: 530px;
+    width: 100%;
+}
+.centered-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.page-title a { color: #fff }
+.single-bg { background-image: url(img/single-bg.jpg) }
+.post-single-meta {
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    padding: 15px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+}
+.post-single-meta a { color: #fff }
+.post-single-meta i.fa { margin-right: 5px }
+.post-single-meta i.fa-bookmark,
+.post-single-meta i.fa-comments { margin-left: 25px }
+/*-----------------------------------------------------------
+Single post CSS
+-----------------------------------------------------------*/
+.comment-metadata a { color: #666 }
+.post-meta-bottom {
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.post-meta-bottom a { color: #333 }
+.post-meta-bottom i.fa { margin-right: 5px }
+.post-share {
+    border-left: 3px solid #999;
+    font-weight: 700;
+    margin-left: 25px;
+    padding-left: 15px;
+    position: relative;
+}
+.share-text { padding-right: 30px }
+.share-buttons-wrapper {
+    position: absolute;
+    right: -100px;
+    top: -1px;
+    width: 175px;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    visibility: hidden;
+}
+.share-buttons-wrapper a { padding: 0 5px }
+.post-share:hover .share-buttons-wrapper {
+    right: -165px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    visibility: visible;
+}
+.post-author-meta {
+    background: none repeat scroll 0 0 #f7f7f7;
+    margin-top: 20px;
+    padding: 30px;
+    position: relative;
+}
+.author-photo {
+    left: 30px;
+    position: absolute;
+    top: 30px;
+    width: 150px;
+}
+.author-photo img { max-width: 100% }
+.author-right-info { padding-left: 175px }
+.author-right-info h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.social-profiles { margin-top: 15px }
+.social-profiles a {
+    color: #333;
+    font-size: 18px;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+.post-archive { margin: 50px 0 }
+.archive-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(img/archive-bg.jpg) repeat fixed;
+    z-index: 1;
+}
+.archive-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #7d8554;
+    content: "";
+    z-index: -1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+.post-archive article { margin: 50px 0 }
+.gallery-carousel-wrap { overflow: hidden }
+.gallery-control {
+    background: none repeat scroll 0 0 #fff;
+    color: #333;
+    font-size: 20px;
+    height: 40px;
+    margin-top: -20px;
+    padding-top: 5px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 40px;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.gallery-control:hover { background: #7d8554 }
+.gallery-control.right { right: -50px }
+.gallery-carousel-wrap:hover .gallery-control.right { right: 0 }
+.gallery-control.left { left: -50px }
+.gallery-carousel-wrap:hover .gallery-control.left { left: 0 }
+.gallery-control:hover { color: #fff }
+.arcive-featured-content {
+    overflow: hidden;
+    position: relative;
+}
+.post-archive .arcive-featured-content { margin-bottom: 30px }
+.arcive-featured-content iframe,
+.arcive-featured-content img {
+    width: 100%;
+    border: none;
+}
+.post-archive article:hover .post-date { left: 0 }
+.post-info-content {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.post-info-top h2 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.post-info-top a { color: #333 }
+.post-info-top { margin-bottom: 30px }
+.read-more {
+    font-weight: 700;
+    margin-top: 10px;
+    color: #333;
+    display: inline-block;
+}
+/*-----------------------------------------------------------
+Comments CSS
+-----------------------------------------------------------*/
+.comments-area { margin-top: 15px }
+.comments-area a { color: #333 }
+ol.comment-list {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.comment-content h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.comment-content span {
+    float: right;
+    font-size: 12px;
+    margin-left: 10px;
+}
+ol.comment-list li { margin-bottom: 40px }
+.comment-reply-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #333;
+}
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"],
+.comment-form textarea { width: 100% }
+input[type="submit"] {
+    border: medium none;
+    color: #fff;
+    padding: 10px 20px;
+}
+.comment-form-comment textarea { height: 170px }
+.form-submit { margin-top: 15px }
+body input[type="submit"] { background: #7D8554 }
+body input[type="submit"]:hover { background: #1e1e1e }
+.comment-body { position: relative }
+.comment-author-img {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.comment-content,
+.comment-body .reply { padding-left: 100px }
+ul.children { margin-top: 40px }
+.children {
+    list-style: outside none none;
+    margin: 15px 0 0;
+    padding: 0 0 0 40px;
+}
+li.comment #respond { margin-top: 30px }
+li.comment #respond .comment-reply-title { margin-bottom: 20px }
+.comment-author.vcard img.avatar {
+    left: 0;
+    position: absolute;
+    top: 9px;
+}
+.comment-author.vcard { padding-left: 100px }
+.comment-meta {
+    margin-bottom: 10px;
+    position: relative;
+}
+.comment-metadata {
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/*-----------------------------------------------------------
+Footer CSS
+-----------------------------------------------------------*/
+.footer-top {
+    background: #111;
+    color: #fff;
+    padding: 60px 0;
+}
+.wid-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+.single-footer-post {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.single-footer-post a { color: #fff }
+.footer-post-thumb {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    width: 50px;
+}
+.single-footer-post h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+.single-footer-post a:hover {
+    color: #7D8554;
+    text-decoration: none;
+}
+#instafeed { overflow: hidden }
+#instafeed a {
+    float: left;
+    width: 65px;
+}
+#instafeed a:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+#instafeed a img {
+    height: auto;
+    max-width: 100%;
+}
+.newsletter-subscribe input[type="text"],
+.newsletter-subscribe input[type="email"] {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    color: #000;
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 100%;
+}
+.newsletter-subscribe { margin-top: 20px }
+.newsletter-subscribe input[type="submit"] {
+    background: none repeat scroll 0 0 #7d8554;
+    border: medium none;
+    color: #fff;
+    font-weight: 700;
+    padding: 8px 20px;
+}
+.newsletter-subscribe input[type="submit"]:hover { background: #666 }
+.footer-bottom {
+    background: #0A0A0A;
+    color: #fff;
+}
+.copyright-text {
+    font-size: 13px;
+    padding: 15px 0;
+}
+.copyright-text p { margin: 0 }
+.copyright-text a,
+.copyright-text i.fa { color: #7D8554 }
+.copyright-text i.fa { margin: 0 5px }
+.copyright-text a:hover {
+    color: #ddd;
+    text-decoration: none;
+}
+.scroll-to-top a {
+    background: none repeat scroll 0 0 #7d8554;
+    color: #fff;
+    display: inline-block;
+    font-size: 19px;
+    height: 30px;
+    margin: 10px 0;
+    text-align: center;
+    width: 30px;
+}
+.scroll-to-top a:hover { background: #666 }
+.post-navigation {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+/*-----------------------------------------------------------
+Preloader CSS
+-----------------------------------------------------------*/
+.preloader {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.preloader:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    z-index: -1;
+    content: "";
+}
+.preloader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: -50px;
+}

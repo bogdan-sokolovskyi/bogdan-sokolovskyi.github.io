@@ -1,0 +1,34 @@
+/************************************BACKGROUND COLOR START************************************/
+.theme-style-1 a.btn-style-2, .head-top, #nav li ul li a:hover, #nav li ul li:hover > a, .top-search a.search-icon, .language-box .btn-default:hover, .language-box .btn-default:focus, .language-box .btn-default.focus, .language-box .btn-default:active, .language-box .btn-default.active, .language-box .open > .dropdown-toggle.btn-default, .language-box .dropdown-menu > li > a:hover, .language-box .dropdown-menu > li > a:focus, #banner .owl-page, .welcome-section .left-box, .heading-style-1:before, .heading-style-1:after, .featured-work .frame .caption:before, .thumb .caption:before, .thumb .caption:after, .blog-section .post-box .thumb .caption:before, .blog-section .post-box .thumb .caption:after, .skill-section .right-col .holder .progress-bar, .testimonials-style-1 .holder .testi-container .text-col strong:before, .testimonials-style-1 .holder .testi-container .text-col strong:after, .newsletter-section .holder, .footer-section-1 .footer-box a.more:before, .footer-section-1 .footer-box a.more:after, .footer-social ul li a:hover, .progress-tab .nav-tabs > li:before, .progress-tab .nav-tabs > li:after, .progress-tab .nav li a:before, .team-style-2-box .thumb .caption:before, .tags a:hover, .share-post ul li a:hover, .blog-full .sticky:before, .detail-row-1 .social ul li a:hover, .detail-row-2 .skill-box .progress-bar, .price-box ul li:hover, .career-form-outer .head, .why-choose-us .text-box, .head-top-2 .left-col ul li a:hover, .head-3-social ul li a:hover, .navbar-toggle{
+	background:#6799A2;
+}
+/************************************BACKGROUND COLOR END************************************/
+
+
+
+/************************************TEXT COLOR START************************************/
+.theme-style-1 a.btn-style-1, .top-search a.search-icon:hover, .featured-work .frame .caption a.link, .featured-work-box:hover h3 a, .services-style-1-box .icon-box, .portfolioFilter a:hover, .portfolioFilter a.current, .portfolio-style-1 .outer .inner a.link:hover, .blog-section .post-box .left-box span.date, .blog-section .post-box .thumb .caption a.link:hover, .blog-section .post-box:hover h3 a, .team-style-1-social ul li a:hover, .newsletter-section .holder form button[type="submit"]:hover, .footer-section-1 .footer-box a.more, .ideal-services ul li:hover a, .ideal-services ul li:hover:before, .footer-section-3 .footer-menu ul li a:hover, .services-style-2 .services-style-2-box i, .progress-tab .nav > li > a, .tab-slider .owl-next:hover:before, .tab-slider .owl-prev:hover:before, .awards-section .award-box:hover a.title, .team-style-2-box .thumb .caption a.link:hover, .team-style-2-box .text-box .holder em, .testimonials-style-2 .bx-wrapper .bx-next:hover:before, .testimonials-style-2 .bx-wrapper .bx-prev:hover:before, .testimonials-style-2 #bx-pager a.active strong.name, .blog-section .owl-next:hover:before, .blog-section .owl-prev:hover:before, .sidebar-box form button[type="submit"], .popular-post ul li:hover a, .recent-post ul li:hover a, .blog-section blockquote .fa, .blog-section .bx-wrapper .bx-prev:hover:before, .blog-section .bx-wrapper .bx-next:hover:before, .detail-row-1 .text-box em, .price-box strong.title, .error-page .holder strong.number, .error-page .holder form button[type="submit"], .register-section .holder form strong, .register-section .holder form strong a, .header-style-3 #nav li.active a,  .cbp-l-filters-alignCenter .cbp-filter-item:hover, .effects .img a:hover{
+	color:#6799A2;
+}
+/************************************TEXT COLOR END************************************/
+
+
+
+/************************************BUTTON COLOR START************************************/
+.theme-style-1 a.btn-style-1:before, #cp-slide-search form button, .blog-section .post-box:hover .text-box a.more, .contact-section form input[type="submit"], .quote-form form input[type="submit"], .comment-box form input[type="submit"], .register-section .holder form input[type="submit"], .career-form form input[type="submit"]{
+	background:#6799A2;
+}
+/************************************BUTTON COLOR END************************************/
+
+
+
+
+/************************************BORDER COLOR START************************************/
+.theme-style-1 a.btn-style-1, .theme-style-1 a.btn-style-2:hover:before, .top-search a.search-icon:hover, .welcome-slider .owl-page.active, .fact-figures .holder .fact-box .inner, .blog-section .post-box .text-box, .team-style-1 .text-col, .testimonials-style-1 .owl-page.active, .services-style-2 .services-style-2-box, .tab-slider .frame:before, .pagination-box .pagination > li.active, .contact-section form input[type="submit"]:hover, .quote-form form input[type="submit"]:hover, .blog-section blockquote, .price-box, .register-section .holder form input[type="submit"]:hover, .job-box, .about-style-2 .owl-page.active{
+	border-color:#6799A2;
+}
+/************************************BORDER COLOR END************************************/
+
+.cbp-l-filters-alignCenter .cbp-filter-item-active {
+	color:#6799A2!important;
+}

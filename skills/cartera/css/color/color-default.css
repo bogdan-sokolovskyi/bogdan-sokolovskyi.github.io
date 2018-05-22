@@ -1,0 +1,41 @@
+/************************************BACKGROUND COLOR START************************************/
+.cube, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, .fa-theme-icon-scroll-up, .process, #scrollUp:hover, .progress-bar, .skill-section .left-col, .skill-section {
+	background: #D8616D;
+}
+/************************************BACKGROUND COLOR START END********************************/
+
+
+
+/************************************TEXT COLOR START******************************************/
+h1:first-letter, h2:first-letter,h3:first-letter,h4:first-letter,h5:first-letter,h6:first-letter, a, .section-title:first-letter, .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover, .dropdown-menu > li > a:hover, .popup-title:first-letter, .fa-theme-service, .port-grid-title a:hover, .sidebar-list .fa, .team-social a, .sidebar-list a:hover, .sidebar-list a:focus {
+	color: #D8616D;
+}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active, .banner-logo-title:first-letter {
+	color: #D8616D!important;
+}
+/************************************TEXT COLOR START END**************************************/
+
+
+
+/************************************BUTTON COLOR START****************************************/
+.btn-about-owl-nav:hover, .btn-port-plus:hover, .btn-port-close, .btn-port-close:hover, .btn-sidebar, .team-prev:hover,.team-next:hover, .owl-theme .owl-controls .owl-page.active span {
+	background: #D8616D;
+}
+.btn-theme-action, .btn-theme-action-reverse:hover, .btn-theme-send:hover,.btn-theme-send:focus, .btn-portfolio-navigator:hover,.btn-portfolio-navigator:active,.btn-portfolio-navigator:focus,.port-active, .btn-theme-read-more:hover, .btn-theme-read-more:focus, .s-adv .btn-theme-read-more {
+	background: #D8616D!important;
+}
+/************************************BUTTON COLOR START END************************************/
+
+
+
+/************************************BORDER COLOR START****************************************/
+.btn-port-plus:hover, .btn-port-close, .btn-port-close:hover, .s-adv .btn-theme-read-more {
+	border-color: #D8616D;
+}
+.btn-theme-action, .btn-theme-action:hover, .btn-theme-action:focus, .btn-theme-action-reverse, .btn-theme-action-reverse:hover, .btn-theme-send:hover,.btn-theme-send:focus, .navbar-toggle, .btn-portfolio-navigator:hover,.btn-portfolio-navigator:active,.btn-portfolio-navigator:focus,.port-active, .pagination-box .pagination > li.active, .btn-theme-read-more:hover, .btn-theme-read-more:focus {
+	border-color: #D8616D!important;
+}
+.line-top {	border-top: 2px solid #D8616D;	border-bottom: 1px solid #D8616D;}
+.line-bottom {	border-top: 1px solid #D8616D;	border-bottom: 2px solid #D8616D;}
+.theme-form-control {border-bottom: 2px solid #D8616D!important;}
+/************************************BORDER COLOR START END************************************/

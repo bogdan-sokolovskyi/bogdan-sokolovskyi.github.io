@@ -1,0 +1,608 @@
+@import 'var'
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.main-menu
+		display: none
+		float: right
+		min-width: 295px
+		text-align: right
+		top: 10px
+		right: 15px
+		z-index: 2
+
+	.main-head
+		.top-line
+			min-height: 80px
+			padding: 15px 0
+	#marker
+		display: none
+
+	.logo
+		left: auto
+		top: 0
+		img
+			width: 100px
+
+	nav
+		width: 610px
+		margin-left: -10px
+		ul
+			li
+				width: 121px
+			a
+				font-size: 12px
+	.sf-mega
+		ul
+			width: 135px
+			li
+				width: 135px
+				a
+					font-size: 12px
+	.s3-img-wrap
+		margin-left: 84px
+
+	.tc-item
+		margin-bottom: 20px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.section_1_review
+		background-image: none
+	.main-head
+		.logo
+			display: none
+		.top-button-wrap
+			right: -10px
+			border: none
+			top: 2px
+	.button
+		padding: 10px 6px
+		font-size: 12px
+
+	.sf-mega
+		ul
+			width: 100%
+			li
+				width: 100%
+	.section_1_review
+		background-image: none
+	.s3-img-wrap
+		margin-left: 46px
+	.section_3 .info-item-wrap:nth-child(1) .info-item,
+	.section_3 .info-item-wrap:nth-child(7) .info-item
+		margin-left: 36px
+	.triangles-container
+		.tc-item
+			&:nth-child(3)
+				margin-left: 0
+	.pannel-right
+		text-align: center
+		margin-top: 20px
+		.top-button-wrap
+			right: 0
+			top: 0
+			margin-right: 84px
+			position: absolute
+		.logo
+			position: absolute
+			margin-top: 25px
+			top: 0
+	.slide-content
+		h1, p, .button-center
+			text-align: center
+	.s-contacts
+		.address-left, .time, .popup-form
+			margin-bottom: 40px 
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+
+	.main-head
+		.logo
+			display: block
+	.main-footer
+		padding: 65px 0 75px
+		nav
+			> ul
+				position: static
+				> li:last-child
+					margin-bottom: 30px
+		.menubtn
+			position: relative
+			float: none
+			left: 49%
+			top: 0
+	.pannel-right
+		text-align: center
+		.top-button-wrap
+			position: relative
+			margin-right: 0	
+		.logo
+			position: relative
+	.s3-img-wrap
+		display: none
+	.section_3
+		.info-item-wrap 
+			.info-item
+				margin: 0 !important
+				display: block
+				max-width: 100%
+				border-bottom: 1px solid $accent-color
+				h4
+					margin-top: 15px
+				p
+					padding-bottom: 15px
+			&:last-child
+				.info-item
+					border-bottom: none
+
+		.section-content
+			background-image: none
+			padding-bottom: 40px
+			padding-top: 40px
+				
+		.section-head
+			margin-bottom: 0
+
+	.arrows-tog
+		> a
+			> span
+				display: none !important
+	.slider
+		max-width: 100% !important
+
+	.top-button-wrap
+		margin-right: 75px
+	.logo
+		display: block
+		top: 3px
+		img
+			width: 90px
+	nav
+		margin-left: 0px
+		position: relative
+	nav span
+		display: block
+
+	/*---------Add class to open slidetoggle menu--------*/
+	nav span
+		position: relative
+		float: right
+		padding: 10px
+		&::after
+			position: absolute
+			top: 22px
+			right: 19px
+			width: 8px
+			height: 2px
+			display: block
+			background: #ddd
+			content: ""
+		&::before
+			position: absolute
+			top: 19px
+			right: 22px
+			display: block
+			width: 2px
+			height: 8px
+			background: #ddd
+			content: ""
+	nav span.submenu-opened
+		&::before
+			display: none
+	/*---------END Add class to open slidetoggle menu--------*/
+
+	nav span:hover
+		cursor: pointer
+	nav ul ul ul span
+		display: none
+	nav ul, nav ul ul
+		height: 0
+	nav ul,
+	nav ul > ul
+		display: none
+		float: none
+		width: 100%
+		position: absolute
+		right: 0
+		top: 64px	
+	nav ul li 
+		border-right: none
+		height: auto
+	nav ul li a.sf-with-ul:after
+		content: ''
+	nav ul li ul,
+	nav ul li ul li
+		width: 100%
+		position: relative
+		top: 3px
+		&:hover
+			background-color: transparent
+	nav ul li ul
+		top: -2px
+		background: transparent
+	nav ul li ul a
+		border-bottom: none
+	nav ul ul,
+	nav ul li
+		width: 100%
+	nav ul li a
+		padding: 1em 0.5em 1em 1.5em
+		float: left
+		line-height: 22px
+		transition: all .5s ease
+		width: auto
+		text-align: left
+		&:hover
+			padding-left: 3em
+	nav ul li ul a
+		padding: 0.5em 1em 0.5em 2em
+	nav ul li ul li a
+		padding: 8px 6px 5px 35px
+		display: block
+		width: auto
+		&:hover
+			padding-left: 50px
+	nav ul ul li ul a
+		padding: 0.6em 1em 0.4em 3em
+	nav ul ul ul li ul a
+		padding: 0.6em 1em 0.4em 4em
+	nav ul li ul,
+	nav ul li ul ul,
+	nav ul li:hover ul ul,
+	nav ul li:hover ul ul ul,
+	nav ul li.sfhover ul ul,
+	nav ul li.sfhover ul ul ul,
+	nav ul li:hover ul,
+	nav ul li li:hover ul,
+	nav ul li li li:hover ul,
+	nav ul li.sfhover ul,
+	nav ul li li.sfhover ul,
+	nav ul li li li.sfhover ul
+		position: relative
+		display: none
+		margin: 0 0 0 0
+		left: 0em /* using left instead of display because display: none isn't read by screen readers */
+	nav > ul > li > span
+		width: 46px
+		height: 46px
+	nav > ul > li > ul li span
+		width: 36px
+		height: 36px
+		&::after
+			top: 17px
+			right: 14px
+		&::before
+			top: 14px
+			right: 17px
+	nav ul li ul ul
+		top: -1px
+	nav .arrows-tog
+		top: 3px
+
+	/*** MOBILE COLORS ***/
+	nav
+		background: none
+		border: none
+		box-shadow: none
+		width: auto
+	.menubtn
+		display: block !important
+		margin: 13px 0 10px
+		float: right
+		transition: all 300ms ease-in-out
+		width: 28px
+		height: 28px
+		line-height: 48px
+		
+	.menubtn:hover
+		cursor: pointer
+
+	.menubtn span:after,
+	.menubtn span:before 
+		content: ""
+		position: absolute
+		left: 0
+		top: 9px
+
+	.menubtn span:after
+		top: 18px
+
+	.menubtn span 
+		position: relative
+		display: block
+		padding: 0
+		&:hover
+			background: #998
+
+	.menubtn span,
+	.menubtn span:after,
+	.menubtn span:before
+		width: 100%
+		height: 2px
+		background-color: #998
+		transition: all 0.3s
+		backface-visibility: hidden
+		border-radius: 2px
+
+	.menubtn.on span 
+		background-color: transparent
+
+	.menubtn.on span:before 
+		transform: rotate(45deg) translate(-1px, 0px)
+
+	.menubtn.on span:after 
+		transform: rotate(-45deg) translate(6px, -7px)
+
+	/*Plus icon*/
+	nav span
+		background: $accent-color
+		color: #fff
+	nav span:hover
+		background: $accent-color
+
+	nav > ul
+		height: auto
+		transition: all .3s ease
+		background-image: url("img/top-pannel-bg.jpg")
+		z-index: -2
+		background-position: -15px -81px
+		border-top: 1px solid #212424
+		&::before
+			content: ''
+			position: absolute
+			top: 0
+			bottom: 0
+			left: 0
+			right: 0
+			background-color: rgba(#3d3d3d, .7)
+			box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3)
+			z-index: -2
+	.main-footer
+		nav > ul
+			background-image: none
+			&::before
+				content: none
+	/*Top Nav background*/
+	nav ul ul,
+	nav ul li
+		//background: $grad
+		transition: all .3s ease
+		border-top: 1px solid #494F4F
+		border-bottom: 1px solid #212424
+
+	/*Sub-Nav background*/
+	nav ul li ul li
+		//background: transparent
+		transition: all .3s ease
+		border-top: 1px solid #494F4F
+		border-bottom: 1px solid #212424
+
+	/*Sub-Nav borders*/
+	// nav ul li ul li
+	// 	border-bottom: none
+	nav ul ul ul li a
+		padding-left: 53px
+		&:hover
+			padding-left: 65px
+
+	/*sub, sub-Nav background*/
+	nav ul ul ul li
+		//background: $grad
+		transition: all .3s ease
+		position: relative
+		top: 2px
+
+	/*First Nav Item when open*/
+	ul li.menuOpen,
+	ul li.menuOpen:hover
+		background: #1c1c1c
+		transition: all .3s ease
+	ul li.menuOpen >span
+		background: #56c9b2
+	ul li.menuOpen >span.submenu-opened
+		background: darken($accent-color, 30%)
+
+	/*Sub-Nav Item when open*/
+	ul ul li.menuOpen,
+	ul ul li.menuOpen:hover
+		//background: $marker-mnu
+		padding-left: 0
+	/*Sub, Sub-Nav Item when open*/
+	ul ul ul li.menuOpen,
+	ul ul ul li.menuOpen:hover
+		background: #cdebf7
+		transition: all .3s ease
+	.sf-mega
+		display: none
+
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+	.section_2
+		.section-pb
+			.col-md-3
+				padding: 0 15px
+		.service-item
+			margin: 0 80px
+	.main-footer
+		.applePie
+			display: block
+	.main-aside
+		width: 65%
+		position: relative
+		left: 18%
+		margin-top: 40px
+		.service-item
+			margin: 0 0 30px
+	.content
+		padding: 40px 0
+	.no-home
+		.service-item
+			margin: 0 80px 30px
+		.main-aside
+			.service-item
+				margin: 0 0 30px
+	nav .plus-tog>::after
+		display: none
+	nav .plus-tog::after
+		right: 14px
+		top: 17px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.main-aside
+		width: 100%
+		position: relative
+		left: 0
+		margin-top: 40px
+	
+	.no-home
+		.content
+			padding: 32px 0
+			article
+				h2
+					font-size: 28px
+		.slider-top
+			.slide
+				.slide-content
+					h1
+						font-size: 28px
+						margin-bottom: 10px
+						line-height: 42px
+					.button
+						min-height: 38px
+						padding: 6px 14px
+		.service-item
+			margin: 0
+		.service-item-blog
+			margin: 0 0 30px 0
+		.main-aside
+			.service-item
+				margin: 0 0 30px
+	
+	.slider-top
+		.slide
+			padding-top: 20px
+			padding-bottom: 90px
+			h1
+				line-height: 40px
+				font-size: 28px
+			.button
+				margin-top: 0
+			p
+				font-size: 14px
+		.slide-content
+			padding-top: 0
+	.section-title
+		h3
+			font-size: 22px
+	.s1-left
+		.section-head
+			margin: 45px 0 50px
+			h2
+				font-size: 22px
+			p
+				font-size: 14px
+	.homesect
+		padding-top: 30px
+		.section-head
+			h2
+				font-size: 22px
+			p
+				font-size: 14px
+		&.section_4
+			.s2-items
+				padding-bottom: 0
+			.s2-item-wrap
+				&:last-child
+					a
+						margin-bottom: 0
+				&:nth-last-child(2)
+					a
+						margin-bottom: 0
+	.section_2
+		.section-pb
+			padding-bottom: 50px
+		.service-item
+			margin: 0
+	.s2-item-wrap
+		padding: 0px 10px
+		width: 140px
+
+	.section_3
+		.section-content
+			padding-top: 14px
+			padding-bottom: 20px
+			.info-item
+				padding-left: 25px
+	.section_6
+		.teams
+			margin-bottom: 20px
+	.triangles-container
+		margin-bottom: 38px
+		.tc-item
+			margin-left: 0
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.slider
+		.owl-controls
+			.owl-dots
+				bottom: 10px
+		.owl-controls
+			.owl-nav
+				top: 40%
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	#mobile-menu
+		display: none
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.main-menu
+		display: block !important
+	.slider
+		max-width: 100% !important
