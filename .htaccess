@@ -1,0 +1,7 @@
+BrowserMatchNoCase "agent1" bots
+BrowserMatchNoCase "Wget" bots
+BrowserMatchNoCase "Catall Spider" bots
+
+Order Allow,Deny
+Allow from ALL
+Deny from env=bots
