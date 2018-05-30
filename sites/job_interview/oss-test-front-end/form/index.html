@@ -68,16 +68,16 @@
 	let firstName = document.querySelector("#firstName");
 	let lastName = document.querySelector("#lastName");
 	let email = document.querySelector("#email");
-    let txtError = document.querySelectorAll(".txtError");
+	let txtError = document.querySelectorAll(".txtError");
 
-    //обработчик событий формы
+	//обработчик событий формы
 	testForm.addEventListener("submit", myForm);
 
-    function myForm () {
-    	//переключатель
-        let isValid = true;
+	function myForm () {
+		//переключатель
+		let isValid = true;
 
-        //удаляем поля div с ошибками и класс error
+		//удаляем поля div с ошибками и класс error
 		for(let i = 0; i < txtError.length; i++){
 			txtError[i].innerHTML = '';
 			txtError[i].previousElementSibling.classList.remove("error");
@@ -110,9 +110,9 @@
 		}
 
 		//отмена действия браузера по умолчанию
-        //успешная отправка сообщения
+		//успешная отправка сообщения
 		!isValid ? event.preventDefault() : alert('Your form has been sent)))');
-    }
+	}
 </script>
 
 </body>
