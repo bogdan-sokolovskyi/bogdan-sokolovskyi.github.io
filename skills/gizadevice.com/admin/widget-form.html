@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Заголовок</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" type="image/png" href="../image/favicon.png">
+
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<header id="admin-menu">
+		<div class="wrap">
+			<div class="admin-logo">
+				<a class="white" href="/"><img src="image/logo-min.png" alt="alt"></a>
+			</div>
+
+			<div class="language" id="lang-menu">
+				<div class="language_active">
+					<p>
+						<a><img src="image/flag/j10.png" alt="English"><span>EN</span></a>
+					</p>
+				</div>
+				<ul>
+					<li>
+						<a href="#"><img src="image/flag/j10.png" alt="English"><span>EN</span></a>
+					</li>
+					<li>
+						<a href="#"><img src="image/flag/j1.jpg" alt="French"><span>FR</span></a>
+					</li>
+					<li>
+						<a href="#"><img src="image/flag/j2.jpg" alt="Chinese"><span>CH</span></a>
+					</li>
+					<li>
+						<a href="#"><img src="image/flag/j3.png" alt="Russian"><span>RU</span></a>
+					</li>
+					<li>
+						<a href="#"><img src="image/flag/j4.png" alt="Japanese"><span>JP</span></a>
+					</li>
+					<li>
+						<a href="#"><img src="image/flag/j5.jpg" alt="German"><span>GR</span></a>
+					</li>
+					<li>
+						<a href="#"><img src="image/flag/j6.png" alt="Spanish"><span>SP</span></a>
+					</li>
+					<li>
+						<a href="#"><img src="image/flag/j7.png" alt="Arab"><span>AR</span></a>
+					</li>
+					<li>
+						<a href="#"><img src="image/flag/j8.png" alt="Indonesian"><span>ID</span></a>
+					</li>
+					<li>
+						<a href="#"><img src="image/flag/j9.png" alt="Turkish"><span>TR</span></a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</header>
+
+	<section class="content">
+		<!--WIDGET-->
+		<div class="widget-form">
+			<h1>Leave your E-mail</h1>
+			<form>
+				<input type="text" placeholder="Your e-mail" required>
+				<span class="instructions">Please, check your email for further instructions</span>
+
+				<ul class="widget-checkbox">
+					<li>
+						<label>
+							<input type="checkbox" />
+							<span class="lbl padding-8">Check here to confirm, that you're not a US citizen</span>
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" />
+							<span class="lbl padding-8">Check here to confirm, that you're not a PRC citizen</span>
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" />
+							<span class="lbl padding-8">Check here to confirm that you have read, understand and agree to the terms of the <a
+									href="#">GIZA token purchase agreement</a></span>
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" />
+							<span class="lbl padding-8">Check here to indicate that you have read our <a href="#">Privacy policy</a></span>
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" />
+							<span class="lbl padding-8">Check here to indicate that you have read the <a href="#">GIZA Device White Paper</a></span>
+						</label>
+					</li>
+				</ul>
+
+				<div class="recaptcha" id="g-recaptcha1"></div>
+				<div class="button-wrap">
+					<button type="submit">Next</button>
+				</div>
+
+			</form>
+		</div>
+		<!--END WIDGET-->
+	</section>
+
+	<footer class="footer">
+		<div class="wrap">
+			<p>Giza Device Ltd © 2017. All Rights Reserved.</p>
+		</div>
+	</footer>
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+
+</body>
+</html>
