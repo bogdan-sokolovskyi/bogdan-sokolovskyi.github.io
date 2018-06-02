@@ -13,26 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skills/adventageu/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="384" column="13" selection-start-line="384" selection-start-column="13" selection-end-line="384" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skills/adventageu/css/responsive.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="86" column="3" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -41,7 +22,7 @@
       <find>sokolovskyi.ml</find>
       <find>vjs-big-play-button</find>
       <find>//Video</find>
-      <find />
+      <find>About us</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,19 +95,6 @@
               <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="skills" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bogdan-sokolovskyi.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="skills" type="462c0819:PsiDirectoryNode" />
-              <item name="adventageu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bogdan-sokolovskyi.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="skills" type="462c0819:PsiDirectoryNode" />
-              <item name="adventageu" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -166,16 +134,15 @@
       <workItem from="1527750625694" duration="1304000" />
       <workItem from="1527790358221" duration="2754000" />
       <workItem from="1527871821032" duration="21000" />
-      <workItem from="1527938931862" duration="6496000" />
+      <workItem from="1527938931862" duration="6918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16127000" />
+    <option name="totallyTimeSpent" value="16549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -412,17 +379,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/skills/adventageu/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/skills/adventageu/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="384" column="13" selection-start-line="384" selection-start-column="13" selection-end-line="384" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skills/adventageu/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="86" column="3" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
         </state>
       </provider>
     </entry>
