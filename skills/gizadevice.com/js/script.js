@@ -431,166 +431,7 @@ jQuery(function ($)
 			$('#section-10 .chart-info .info').eq($index).removeClass('open');
 		});
 
-	//Video
-	window.onload = function () {
 
-		//Video Customization
-		$("#section-2 .vjs-big-play-button").on("click", function () {
-			$("#section-2").css('z-index', '155');
-			$("#section-2 .wrap").css('display', 'none');
-		});
-
-		if (document.getElementById("main-video")) {
-			var Video = {
-				player: videojs("main-video"),
-
-				togglePlay: function () {
-					if (this.player.paused()) {
-						this.player.play();
-					} else {
-						this.player.pause();
-					}
-				},
-
-				lowerVolume: function () {
-					this.player.volume(this.player.volume() - 0.05);
-				},
-
-				raiseVolume: function () {
-					this.player.volume(this.player.volume() + 0.05);
-				},
-
-				toggleMute: function () {
-					this.player.muted(!this.player.muted());
-				},
-
-				restartVideo: function () {
-					this.player.currentTime(0);
-				},
-
-				endVideo: function () {
-					this.player.currentTime(this.player.duration());
-				},
-
-				seekVideo: function (value) {
-					this.player.currentTime((this.player.duration() * value) / 100);
-				},
-
-				skipVideo: function (value) {
-					this.player.currentTime(this.player.currentTime() + value);
-				},
-
-				frameForward: function () {
-					frameTime = 1 / 29;
-
-					if (this.paused()) {
-						this.player.currentTime(Math.min(this.player.duration(), this.player.currentTime() + frameTime));
-					}
-				},
-
-				frameBack: function () {
-					frameTime = 1 / 29;
-
-					if (this.paused()) {
-						this.player.currentTime(Math.max(0, this.player.currentTime() - frameTime));
-					}
-				}
-			};
-
-			// key handlers
-			window.addEventListener("keydown", function (event) {
-				if (event.target.tagName.toLowerCase() !== 'input' &&
-					event.target.tagName.toLowerCase() !== 'textarea') {
-					switch (event.keyCode) {
-						case 75: // k
-							Video.togglePlay();
-							break;
-						case 32: // space
-							Video.togglePlay();
-							break;
-						case 37: // left arrow
-							Video.skipVideo(-5);
-							break;
-						case 74: // j
-							Video.skipVideo(-10);
-							break;
-						case 39: // right arrow
-							Video.skipVideo(5);
-							break;
-						case 76: // l
-							Video.skipVideo(10);
-							break;
-						case 70: // f
-							Video.fullscreen();
-							break;
-						case 36: // home
-							Video.restartVideo();
-							break;
-						case 35: // end
-							Video.endVideo();
-							break;
-						case 38: // up arrow
-							Video.raiseVolume();
-							break;
-						case 40: // down arrow
-							Video.lowerVolume();
-							break;
-						case 190: // .
-							Video.frameForward();
-							break;
-						case 188: // ,
-							Video.frameBack();
-							break;
-						case 77: // m
-							Video.toggleMute();
-							break;
-						case 48: // 0
-							Video.restartVideo();
-							break;
-						case 49: // 1
-							Video.seekVideo(10);
-							break;
-						case 50: // 2
-							Video.seekVideo(20);
-							break;
-						case 51: // 3
-							Video.seekVideo(30);
-							break;
-						case 52: // 4
-							Video.seekVideo(40);
-							break;
-						case 53: // 5
-							seekVideo(50);
-							break;
-						case 54: // 6
-							Video.seekVideo(60);
-							break;
-						case 55: // 7
-							Video.seekVideo(70);
-							break;
-						case 56: // 8
-							Video.seekVideo(80);
-							break;
-						case 57: // 9
-							Video.seekVideo(90);
-							break;
-						default:
-							return;
-					}
-				}
-			}, true);
-		}
-		//Note: show big play button at the end
-		var player = videojs('main-video');
-		player.on("ended", function () {
-			player.hasStarted(false);
-			$("#section-2").css('z-index', '149');
-			$("#section-2 .wrap").css('display', 'block');
-		});
-
-	};
-
-	//Video
 
 
 //////////////////////////////////////////////////////////////////////
@@ -874,6 +715,167 @@ jQuery(function ($)
 	}
 	/** Timer end */
 
+
+	//Video
+	window.onload = function () {
+
+		//Video Customization
+		$("#section-2 .vjs-big-play-button").on("click", function () {
+			$("#section-2").css('z-index', '155');
+			$("#section-2 .wrap").css('display', 'none');
+		});
+
+		if (document.getElementById("main-video")) {
+			var Video = {
+				player: videojs("main-video"),
+
+				togglePlay: function () {
+					if (this.player.paused()) {
+						this.player.play();
+					} else {
+						this.player.pause();
+					}
+				},
+
+				lowerVolume: function () {
+					this.player.volume(this.player.volume() - 0.05);
+				},
+
+				raiseVolume: function () {
+					this.player.volume(this.player.volume() + 0.05);
+				},
+
+				toggleMute: function () {
+					this.player.muted(!this.player.muted());
+				},
+
+				restartVideo: function () {
+					this.player.currentTime(0);
+				},
+
+				endVideo: function () {
+					this.player.currentTime(this.player.duration());
+				},
+
+				seekVideo: function (value) {
+					this.player.currentTime((this.player.duration() * value) / 100);
+				},
+
+				skipVideo: function (value) {
+					this.player.currentTime(this.player.currentTime() + value);
+				},
+
+				frameForward: function () {
+					frameTime = 1 / 29;
+
+					if (this.paused()) {
+						this.player.currentTime(Math.min(this.player.duration(), this.player.currentTime() + frameTime));
+					}
+				},
+
+				frameBack: function () {
+					frameTime = 1 / 29;
+
+					if (this.paused()) {
+						this.player.currentTime(Math.max(0, this.player.currentTime() - frameTime));
+					}
+				}
+			};
+
+			// key handlers
+			window.addEventListener("keydown", function (event) {
+				if (event.target.tagName.toLowerCase() !== 'input' &&
+					event.target.tagName.toLowerCase() !== 'textarea') {
+					switch (event.keyCode) {
+						case 75: // k
+							Video.togglePlay();
+							break;
+						case 32: // space
+							Video.togglePlay();
+							break;
+						case 37: // left arrow
+							Video.skipVideo(-5);
+							break;
+						case 74: // j
+							Video.skipVideo(-10);
+							break;
+						case 39: // right arrow
+							Video.skipVideo(5);
+							break;
+						case 76: // l
+							Video.skipVideo(10);
+							break;
+						case 70: // f
+							Video.fullscreen();
+							break;
+						case 36: // home
+							Video.restartVideo();
+							break;
+						case 35: // end
+							Video.endVideo();
+							break;
+						case 38: // up arrow
+							Video.raiseVolume();
+							break;
+						case 40: // down arrow
+							Video.lowerVolume();
+							break;
+						case 190: // .
+							Video.frameForward();
+							break;
+						case 188: // ,
+							Video.frameBack();
+							break;
+						case 77: // m
+							Video.toggleMute();
+							break;
+						case 48: // 0
+							Video.restartVideo();
+							break;
+						case 49: // 1
+							Video.seekVideo(10);
+							break;
+						case 50: // 2
+							Video.seekVideo(20);
+							break;
+						case 51: // 3
+							Video.seekVideo(30);
+							break;
+						case 52: // 4
+							Video.seekVideo(40);
+							break;
+						case 53: // 5
+							seekVideo(50);
+							break;
+						case 54: // 6
+							Video.seekVideo(60);
+							break;
+						case 55: // 7
+							Video.seekVideo(70);
+							break;
+						case 56: // 8
+							Video.seekVideo(80);
+							break;
+						case 57: // 9
+							Video.seekVideo(90);
+							break;
+						default:
+							return;
+					}
+				}
+			}, true);
+		}
+		//Note: show big play button at the end
+		var player = videojs('main-video');
+		player.on("ended", function () {
+			player.hasStarted(false);
+			$("#section-2").css('z-index', '149');
+			$("#section-2 .wrap").css('display', 'block');
+		});
+
+	};
+
+	//Video
 
 //////////////////////////////////////////////////////////////////////
 }); // jQuery END
