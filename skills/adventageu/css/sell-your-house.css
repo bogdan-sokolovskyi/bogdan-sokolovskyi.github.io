@@ -1,0 +1,327 @@
+.area.sell-house .area-text {
+  top: 55%; }
+  .area.sell-house .area-text h1 {
+    text-transform: none;
+    font-size: 40px; }
+
+.area.sell-house .process-text h2 {
+  font-size: 25px; }
+
+.area.sell-house .area-img {
+  position: absolute; }
+
+.section-6 {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 50px 0;
+  line-height: 1.2; }
+  .section-6 .block-text h1 {
+    color: #585858;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50px; }
+  .section-6 .block-text p {
+    color: #8b8b8b;
+    font-size: 16px;
+    margin: 0 44px 50px;
+    line-height: 1.23; }
+    .section-6 .block-text p span {
+      display: block;
+      margin-top: 50px; }
+      .section-6 .block-text p span .sp-orange {
+        display: inline;
+        margin: 0; }
+  .section-6 .process-img {
+    position: relative;
+    margin-bottom: 80px; }
+    .section-6 .process-img-wrap {
+      margin: auto;
+      width: 149px;
+      height: 149px;
+      position: relative;
+      overflow: hidden;
+      -webkit-border-radius: 50%;
+              border-radius: 50%; }
+      .section-6 .process-img-wrap-over {
+        position: absolute;
+        top: 0;
+        left: -9999px;
+        bottom: 0;
+        right: -9999px; }
+        .section-6 .process-img-wrap-over img {
+          display: block;
+          height: 100%;
+          margin: auto; }
+    .section-6 .process-img span {
+      width: 58px;
+      height: 58px;
+      background-color: #72a644;
+      position: absolute;
+      bottom: -45px;
+      left: 50%;
+      margin-left: -28px;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      padding: 11px; }
+      .section-6 .process-img span .fa {
+        color: #ffffff;
+        font-size: 40px; }
+  .section-6 .process-text {
+    padding: 0 13px; }
+    .section-6 .process-text h2 {
+      color: #585858;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      padding: 0 50px;
+      font-size: 25px; }
+    .section-6 .process-text p {
+      color: #8b8b8b;
+      font-size: 15px;
+      line-height: 1.4;
+      margin: 0 0 50px; }
+
+.section-7 {
+  position: relative;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  text-align: center;
+  padding: 158px 0; }
+  .section-7.matched {
+    padding: 191px 0;
+    display: block; }
+  .section-7:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .4; }
+  .section-7 .area-text {
+    position: relative;
+    margin-top: 0; }
+    .section-7 .area-text-resources {
+      display: inline-block;
+      text-align: left; }
+      .section-7 .area-text-resources h2 {
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-size: 30px; }
+        .section-7 .area-text-resources h2 img {
+          position: absolute;
+          top: -6px;
+          left: 0; }
+      .section-7 .area-text-resources p {
+        display: inline-block;
+        line-height: 36px;
+        position: relative;
+        font-size: 22px;
+        margin: 0 0 10px;
+        padding-left: 43px; }
+        .section-7 .area-text-resources p img {
+          position: absolute;
+          left: 0;
+          width: 36px; }
+      .section-7 .area-text-resources-h {
+        display: inline-block;
+        text-align: left; }
+        .section-7 .area-text-resources-h p {
+          position: relative;
+          font-size: 48px;
+          padding-left: 102px;
+          margin: 0;
+          line-height: 70px;
+          text-transform: uppercase; }
+          .section-7 .area-text-resources-h p img {
+            position: absolute;
+            left: 0;
+            height: 70px; }
+
+.section-8 {
+  padding: 50px 0; }
+  .section-8 .block-text {
+    text-align: center; }
+    .section-8 .block-text h1 {
+      margin-bottom: 50px;
+      color: #585858;
+      font-size: 40px;
+      text-transform: uppercase;
+      line-height: 1.04; }
+    .section-8 .block-text p {
+      position: relative;
+      color: #8b8b8b;
+      font-size: 22px;
+      line-height: 1.2;
+      margin: 0 60px; }
+      .section-8 .block-text p:before {
+        content: '';
+        position: absolute;
+        top: -70px;
+        left: -100px;
+        background-image: url(../img/sertified.png);
+        -webkit-background-size: contain;
+                background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%; }
+
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width: 1590px) {
+  .section-6 .block-text h1 {
+    font-size: 30px; }
+  .section-6 .process-img span {
+    margin-left: -30px; }
+  .section-6 .process-text {
+    padding: 0; }
+    .section-6 .process-text h2 {
+      padding: 0; }
+  .section-7 .area-text-resources h2 {
+    font-size: 30px; }
+  .section-7.matched .area-text-resources-h p {
+    font-size: 42px; }
+  .section-8 .block-text h1 {
+    font-size: 40px;
+    margin-bottom: 40px; }
+  .section-8 .block-text p:before {
+    content: '';
+    left: -120px; } }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .area.sell-house .area-text h1 {
+    font-size: 40px; }
+  .section-6 .block-text h1 {
+    font-size: 30px; }
+  .section-6 .process-img-wrap {
+    width: 212px;
+    height: 212px; }
+  .section-6 .process-text h2 {
+    font-size: 32px; }
+  .section-8 .block-text p:before {
+    top: -68px;
+    left: -130px;
+    width: 40%;
+    height: 40%; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .section-6 {
+    padding: 90px 0 40px; }
+    .section-6 .block-text h1 {
+      font-size: 34px;
+      margin-bottom: 24px; }
+    .section-6 .block-text p {
+      font-size: 18px;
+      margin-bottom: 24px; }
+      .section-6 .block-text p span {
+        margin-top: 20px; }
+    .section-6 .process-img {
+      margin-bottom: 100px; }
+  .section-7 {
+    padding: 116px 0; }
+    .section-7 .area-text-resources h2 {
+      font-size: 34px; }
+    .section-7 .area-text-resources p {
+      font-size: 24px; }
+      .section-7 .area-text-resources p img {
+        top: -12px; }
+  .section-7.matched {
+    padding: 116px; }
+    .section-7.matched .area-text-resources-h p {
+      font-size: 34px; }
+  .section-8 {
+    padding: 80px 0; }
+    .section-8 .block-text h1 {
+      font-size: 34px;
+      margin-bottom: 24px; }
+    .section-8 .block-text p {
+      margin: 0; }
+      .section-8 .block-text p:before {
+        top: -60px;
+        left: -128px;
+        width: 30%;
+        height: 30%; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .area.sell-house .area-text {
+    top: 63%; }
+    .area.sell-house .area-text h1 {
+      font-size: 28px; }
+  .section-6 {
+    padding: 40px 0 0; }
+    .section-6 .block-text h1 {
+      font-size: 22px;
+      margin-bottom: 24px; }
+    .section-6 .block-text p {
+      font-size: 16px;
+      margin-bottom: 24px; }
+    .section-6 .process-text h2 {
+      font-size: 22px;
+      margin-bottom: 12px; }
+    .section-6 .process-text p {
+      font-size: 16px; }
+  .section-7 {
+    padding: 86px 0; }
+    .section-7 .area-text-resources h2 {
+      font-size: 22px; }
+    .section-7 .area-text-resources p {
+      font-size: 20px; }
+  .section-7.matched .area-text-resources-h p {
+    font-size: 22px;
+    padding-left: 75px; }
+    .section-7.matched .area-text-resources-h p img {
+      width: 55px;
+      top: -18px; }
+  .section-8 {
+    padding: 40px 0; }
+    .section-8 .block-text h1 {
+      font-size: 22px; }
+    .section-8 .block-text p {
+      font-size: 16px; }
+      .section-8 .block-text p:before {
+        display: none; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .header.sell-house {
+    position: relative;
+    background-color: #333; }
+  .area.sell-house .area-text {
+    top: 42%; }
+  .section-7.matched .area-text-resources-h p {
+    padding-left: 0; }
+    .section-7.matched .area-text-resources-h p img {
+      top: -5px;
+      left: -70px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }

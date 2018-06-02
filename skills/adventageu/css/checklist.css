@@ -1,0 +1,412 @@
+.section-checklist {
+  padding: 50px 0;
+  text-align: center; }
+  .section-checklist h3 {
+    color: #585858;
+    line-height: 1;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0 0 30px; }
+  .section-checklist p.h-head {
+    color: #585858;
+    font-size: 28px;
+    line-height: 1;
+    margin: 0 0 30px; }
+  .section-checklist p {
+    line-height: 1.2;
+    font-size: 16px;
+    text-transform: none;
+    margin: 0 0 20px;
+    color: #8b8b8b; }
+  .section-checklist .text-block p:last-child {
+    margin: 0; }
+
+.area h1 {
+  text-transform: none;
+  margin-bottom: 0; }
+
+.section-checklist-1 .preparing {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .section-checklist-1 .preparing-sale {
+    width: 360px; }
+    .section-checklist-1 .preparing-sale h4 {
+      font-size: 28px;
+      color: #585858;
+      margin: 30px 0;
+      text-transform: uppercase;
+      line-height: 1.2; }
+    .section-checklist-1 .preparing-sale p {
+      color: #8b8b8b;
+      line-height: 1.5;
+      margin: 0; }
+    .section-checklist-1 .preparing-sale .image-wrap {
+      width: 360px;
+      height: 360px;
+      overflow: hidden;
+      position: relative; }
+      .section-checklist-1 .preparing-sale .image-wrap .image-helper {
+        position: absolute;
+        top: 0;
+        left: -9999px;
+        bottom: 0;
+        right: -9999px; }
+        .section-checklist-1 .preparing-sale .image-wrap .image-helper img {
+          display: block;
+          height: 100%;
+          margin: auto; }
+
+.section-checklist-2, .section-checklist-5, .section-checklist-7 {
+  height: 440px;
+  -webkit-background-size: cover;
+          background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative; }
+  .section-checklist-2:after, .section-checklist-5:after, .section-checklist-7:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0; }
+  .section-checklist-2 h3, .section-checklist-5 h3, .section-checklist-7 h3 {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    color: #ffffff;
+    text-transform: none;
+    line-height: 1.2; }
+
+.section-checklist-3 {
+  padding: 50px 0 20px; }
+  .section-checklist-3 .image-left .image-wrap {
+    float: left;
+    margin: 0 50px 30px 0; }
+  .section-checklist-3 .image-right .image-wrap {
+    float: right;
+    margin: 0 0 30px 150px; }
+  .section-checklist-3 .image-wrap {
+    width: 750px;
+    height: 530px;
+    overflow: hidden;
+    position: relative; }
+    .section-checklist-3 .image-wrap .image-helper {
+      position: absolute;
+      top: 0;
+      left: -9999px;
+      bottom: 0;
+      right: -9999px; }
+      .section-checklist-3 .image-wrap .image-helper img {
+        display: block;
+        height: 100%;
+        margin: auto; }
+  .section-checklist-3 .text-block {
+    text-align: left;
+    margin: 0 0 30px; }
+    .section-checklist-3 .text-block h4 {
+      font-size: 28px;
+      color: #585858;
+      line-height: 1.2;
+      margin: 0 0 30px; }
+    .section-checklist-3 .text-block p {
+      font-size: 16px;
+      padding: 0 100px 0 0; }
+
+.section-checklist-4 {
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center;
+  position: relative; }
+  .section-checklist-4 .form-box {
+    display: inline-block;
+    text-align: left; }
+    .section-checklist-4 .form-box h3, .section-checklist-4 .form-box p {
+      text-align: left; }
+    .section-checklist-4 .form-box h3 {
+      text-transform: none; }
+  .section-checklist-4:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 0; }
+  .section-checklist-4 h3, .section-checklist-4 p {
+    color: #ffffff;
+    z-index: 1;
+    position: relative; }
+  .section-checklist-4 p {
+    margin: 30px 0 0; }
+  .section-checklist-4 form.getlist {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    width: 530px; }
+    .section-checklist-4 form.getlist label {
+      display: block;
+      text-align: right; }
+      .section-checklist-4 form.getlist label span {
+        color: #ffffff;
+        display: inline-block;
+        float: left;
+        line-height: 2; }
+      .section-checklist-4 form.getlist label input {
+        display: inline-block;
+        border: 0;
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 450px;
+        font-size: 16px;
+        color: #585858;
+        padding: 8px 16px;
+        margin: 0 0 30px; }
+    .section-checklist-4 form.getlist .btn-action {
+      text-align: center;
+      margin-left: 73px; }
+      .section-checklist-4 form.getlist .btn-action button {
+        font-size: 16px;
+        text-transform: uppercase;
+        width: auto;
+        padding: 12px 42px;
+        text-align: center; }
+
+.section-checklist-5 .btn-action {
+  position: relative;
+  z-index: 1;
+  margin-top: 30px; }
+  .section-checklist-5 .btn-action button {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 12px 42px; }
+
+.section-checklist-6 .text-block {
+  text-align: left;
+  margin: 0 0 30px; }
+  .section-checklist-6 .text-block h5 {
+    color: #585858;
+    margin: 0 0 8px;
+    font-size: 17px;
+    line-height: 1.2; }
+
+.section-checklist-6 p.h-head {
+  text-align: center; }
+
+.section-checklist-6 .image-wrap {
+  width: 490px;
+  height: 448px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 0 20px; }
+  .section-checklist-6 .image-wrap .image-helper {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    bottom: 0;
+    right: -9999px; }
+    .section-checklist-6 .image-wrap .image-helper img {
+      display: block;
+      height: 100%;
+      margin: auto; }
+
+.section-checklist-6 .btn-action button {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 12px 42px; }
+
+.section-checklist-7 p.h-head {
+  line-height: 1.2;
+  color: #ffffff;
+  position: relative;
+  z-index: 1; }
+
+.section-checklist-8 .btn-action button {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 12px 42px; }
+
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width: 1590px) {
+  .section-checklist-1 .preparing-sale {
+    width: 280px; }
+    .section-checklist-1 .preparing-sale .image-wrap {
+      width: 280px;
+      height: 280px; }
+  .section-checklist-3 .image-wrap {
+    width: 555px;
+    height: 386px; }
+  .section-checklist-3 .text-block p {
+    padding: 0; }
+  .section-checklist-3 .image-right .image-wrap {
+    margin: 0 0 30px 50px; }
+  .section-checklist-6 .image-wrap {
+    width: 360px;
+    height: 329px; } }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .section-checklist-3 .image-wrap {
+    width: 455px;
+    height: 317px; }
+  .section-checklist-6 .image-wrap {
+    width: 293px;
+    height: 268px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .section-checklist-1 .preparing-sale {
+    width: 190px; }
+    .section-checklist-1 .preparing-sale .image-wrap {
+      width: 190px;
+      height: 190px; }
+  .section-checklist-3 .image-wrap {
+    width: 345px;
+    height: 240px; }
+  .section-checklist-3 .image-right .image-wrap {
+    margin: 0 0 30px 30px; }
+  .section-checklist-3 .image-left .image-wrap {
+    margin: 0 30px 30px 0; }
+  .section-checklist-6 .image-wrap {
+    width: 220px;
+    height: 200px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .area-text h1 {
+    font-size: 22px;
+    margin: 0; }
+  .section-checklist {
+    padding: 30px 0; }
+    .section-checklist h3 {
+      font-size: 22px;
+      margin: 0 0 20px; }
+    .section-checklist p.h-head {
+      font-size: 20px;
+      margin: 0 0 10px; }
+  .section-checklist-1 .preparing-sale {
+    margin: 0 auto 20px;
+    width: 190px; }
+    .section-checklist-1 .preparing-sale:last-child {
+      margin: 0 auto; }
+    .section-checklist-1 .preparing-sale h4 {
+      margin: 20px 0;
+      font-size: 20px; }
+    .section-checklist-1 .preparing-sale .image-wrap {
+      width: 190px;
+      height: 190px; }
+  .section-checklist-2, .section-checklist-5, .section-checklist-7 {
+    height: 250px; }
+  .section-checklist-3 .image-left .image-wrap {
+    float: none;
+    margin: 0 0 20px; }
+  .section-checklist-3 .image-right .image-wrap {
+    float: none;
+    margin: 0 0 20px; }
+  .section-checklist-3 .image-right .text-block {
+    margin: 0; }
+  .section-checklist-3 .image-wrap {
+    display: inline-block;
+    width: 290px;
+    height: 202px; }
+  .section-checklist-3 .text-block {
+    text-align: center;
+    margin: 0 0 20px; }
+    .section-checklist-3 .text-block h4 {
+      font-size: 20px;
+      margin: 0 0 20px; }
+  .section-checklist-4 .form-box {
+    text-align: center; }
+    .section-checklist-4 .form-box h3 {
+      text-align: center; }
+  .section-checklist-4 p {
+    margin: 20px 100px 0; }
+  .section-checklist-4 form.getlist {
+    width: 290px; }
+    .section-checklist-4 form.getlist label input {
+      width: 290px;
+      margin: 0 0 20px; }
+    .section-checklist-4 form.getlist .btn-action {
+      margin-left: 0; }
+      .section-checklist-4 form.getlist .btn-action button {
+        padding: 12px 42px; }
+  .section-checklist-5 .btn-action {
+    margin-top: 20px; }
+  .section-checklist-6 .image-wrap {
+    display: inline-block;
+    width: 433px;
+    height: 395px; }
+  .section-checklist-6 .text-block {
+    text-align: center;
+    width: 433px;
+    display: inline-block; }
+  .section-checklist-7 h3 {
+    margin: 0; }
+  .section-checklist-8 p {
+    margin: 0 0 10px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .section-checklist-1 .preparing-sale {
+    width: 290px; }
+    .section-checklist-1 .preparing-sale .image-wrap {
+      width: 290px;
+      height: 290px; }
+  .section-checklist-4 p {
+    margin: 20px 0 0; }
+  .section-checklist-6 .image-wrap {
+    width: 290px;
+    height: 265px; }
+  .section-checklist-6 .text-block {
+    width: auto; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
