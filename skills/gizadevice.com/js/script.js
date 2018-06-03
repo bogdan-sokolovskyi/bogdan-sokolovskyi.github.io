@@ -658,64 +658,6 @@ jQuery(function ($)
 		});
 	}
 
-
-	/** Timer start */
-	function CountdownTimer(elm,tl,mes){
-		this.initialize.apply(this,arguments);
-	}
-	CountdownTimer.prototype={
-		initialize:function(elm,tl,mes) {
-			this.elem = document.getElementById(elm);
-			this.tl = tl;
-			this.mes = mes;
-		},countDown:function(){
-			var timer='';
-			var today=new Date();
-			var day=Math.floor((this.tl-today)/(24*60*60*1000));
-			var hour=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*60*1000));
-			var min=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*1000))%60;
-			var sec=Math.floor(((this.tl-today)%(24*60*60*1000))/1000)%60%60;
-			if (day<10){
-				day = '0'+day;
-			};
-			if (hour<10){
-				hour = '0'+hour;
-			};
-			if (min<10){
-				min = '0'+min;
-			};
-			if (sec<10){
-				sec = '0'+sec;
-			};
-			var me=this;
-
-
-			if( ( this.tl - today ) > 0 ){
-				timer += '<div class="number-wrapper"><span class="number day">'+day+'</span><div class="caption">Days</div></div>';
-				timer += '<div class="number-wrapper"><span class="number hour">'+hour+'</span><div class="caption">Hours</div></div>';
-				timer += '<div class="number-wrapper"><span class="number min">'+this.addZero(min)+'</span><div class="caption">Minutes</div></div><div class="number-wrapper"><span class="number sec">'+this.addZero(sec)+'</span><div class="caption">Seconds</div></div>';
-				this.elem.innerHTML = timer;
-				tid = setTimeout( function(){me.countDown();},10 );
-			}else{
-				this.elem.innerHTML = this.mes;
-				return;
-			}
-		},addZero:function(num){ return ('0'+num).slice(-2); }
-	}
-	function CDT(){
-		// Set countdown limit
-		var tl = new Date('2020/12/31 00:00:00');
-
-		// You can add time's up message here
-		var timer = new CountdownTimer('CDT',tl,'<div class="number-wrapper"><span class="number end">Time is over!!!</span></div>');
-		timer.countDown();
-	}
-	window.onload=function(){
-		CDT();
-	}
-	/** Timer end */
-
-
 	//Video
 	window.onload = function () {
 
@@ -959,3 +901,61 @@ function callBottomRecaptcha(token)
 	}
 	return false;
 }
+
+
+
+/** Timer start */
+function CountdownTimer(elm,tl,mes){
+	this.initialize.apply(this,arguments);
+}
+CountdownTimer.prototype={
+	initialize:function(elm,tl,mes) {
+		this.elem = document.getElementById(elm);
+		this.tl = tl;
+		this.mes = mes;
+	},countDown:function(){
+		var timer='';
+		var today=new Date();
+		var day=Math.floor((this.tl-today)/(24*60*60*1000));
+		var hour=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*60*1000));
+		var min=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*1000))%60;
+		var sec=Math.floor(((this.tl-today)%(24*60*60*1000))/1000)%60%60;
+		if (day<10){
+			day = '0'+day;
+		};
+		if (hour<10){
+			hour = '0'+hour;
+		};
+		if (min<10){
+			min = '0'+min;
+		};
+		if (sec<10){
+			sec = '0'+sec;
+		};
+		var me=this;
+
+
+		if( ( this.tl - today ) > 0 ){
+			timer += '<div class="number-wrapper"><span class="number day">'+day+'</span><div class="caption">Days</div></div>';
+			timer += '<div class="number-wrapper"><span class="number hour">'+hour+'</span><div class="caption">Hours</div></div>';
+			timer += '<div class="number-wrapper"><span class="number min">'+this.addZero(min)+'</span><div class="caption">Minutes</div></div><div class="number-wrapper"><span class="number sec">'+this.addZero(sec)+'</span><div class="caption">Seconds</div></div>';
+			this.elem.innerHTML = timer;
+			tid = setTimeout( function(){me.countDown();},10 );
+		}else{
+			this.elem.innerHTML = this.mes;
+			return;
+		}
+	},addZero:function(num){ return ('0'+num).slice(-2); }
+}
+function CDT(){
+	// Set countdown limit
+	var tl = new Date('2020/12/31 00:00:00');
+
+	// You can add time's up message here
+	var timer = new CountdownTimer('CDT',tl,'<div class="number-wrapper"><span class="number end">Time is over!!!</span></div>');
+	timer.countDown();
+}
+window.onload=function(){
+	CDT();
+}
+/** Timer end */

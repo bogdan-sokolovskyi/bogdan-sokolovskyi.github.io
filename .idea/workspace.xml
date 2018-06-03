@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="51205a07-c1c9-4854-baae-63ee804bc6b9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/job_interview/9-lines.com/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/job_interview/9-lines.com/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skills/gizadevice.com/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/skills/gizadevice.com/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/job_interview/9-lines.com/index.html">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skills/gizadevice.com/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+            <state relative-caret-position="362">
+              <caret line="960" column="16" selection-start-line="960" selection-start-column="16" selection-end-line="960" selection-end-column="16" />
+              <folding>
+                <element signature="n#!!block;n#callTopRecaptcha#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,7 +50,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sites/job_interview/oss-test-front-end/form/index.html" />
         <option value="$PROJECT_DIR$/sites/job_interview/oss-test-front-end/html-template/gulpfile.js" />
-        <option value="$PROJECT_DIR$/skills/gizadevice.com/js/script.js" />
         <option value="$PROJECT_DIR$/skills/adventageu/index.html" />
         <option value="$PROJECT_DIR$/skills/adventageu/about.html" />
         <option value="$PROJECT_DIR$/skills/adventageu/checklist.html" />
@@ -67,6 +69,7 @@
         <option value="$PROJECT_DIR$/skills/adventageu/css/main.css" />
         <option value="$PROJECT_DIR$/skills/adventageu/css/responsive.css" />
         <option value="$PROJECT_DIR$/sites/job_interview/9-lines.com/index.html" />
+        <option value="$PROJECT_DIR$/skills/gizadevice.com/js/script.js" />
       </list>
     </option>
   </component>
@@ -107,20 +110,20 @@
             <path>
               <item name="bogdan-sokolovskyi.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="skills" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bogdan-sokolovskyi.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="job_interview" type="462c0819:PsiDirectoryNode" />
+              <item name="skills" type="462c0819:PsiDirectoryNode" />
+              <item name="gizadevice.com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bogdan-sokolovskyi.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="job_interview" type="462c0819:PsiDirectoryNode" />
-              <item name="9-lines.com" type="462c0819:PsiDirectoryNode" />
+              <item name="skills" type="462c0819:PsiDirectoryNode" />
+              <item name="gizadevice.com" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -133,6 +136,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,12 +165,14 @@
       <workItem from="1527750625694" duration="1304000" />
       <workItem from="1527790358221" duration="2754000" />
       <workItem from="1527871821032" duration="21000" />
-      <workItem from="1527938931862" duration="8317000" />
+      <workItem from="1527938931862" duration="10729000" />
+      <workItem from="1528015519925" duration="97000" />
+      <workItem from="1528054111868" duration="400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17948000" />
+    <option name="totallyTimeSpent" value="20857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -199,17 +205,24 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/skills/gizadevice.com/js/script.js</url>
-          <line>658</line>
-          <properties lambdaOrdinal="-1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/job_interview/oss-test-front-end/html-template/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -245,13 +258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/job_interview/oss-test-front-end/form/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -266,19 +272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="267" column="59" selection-start-line="267" selection-start-column="59" selection-end-line="267" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skills/gizadevice.com/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="726" lean-forward="true" selection-start-line="726" selection-end-line="726" />
-          <folding>
-            <element signature="e#19991#21380#0" />
-            <element signature="e#21396#21659#0" />
-            <element signature="e#21821#22486#0" />
-            <element signature="n#!!block;n#callTopRecaptcha#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,6 +424,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skills/gizadevice.com/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="960" column="16" selection-start-line="960" selection-start-column="16" selection-end-line="960" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!block;n#callTopRecaptcha#0" />
+          </folding>
         </state>
       </provider>
     </entry>
