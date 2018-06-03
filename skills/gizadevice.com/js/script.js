@@ -955,7 +955,5 @@ function CDT(){
 	var timer = new CountdownTimer('CDT',tl,'<div class="number-wrapper"><span class="number end">Time is over!!!</span></div>');
 	timer.countDown();
 }
-window.onload=function(){
-	CDT();
-}
+CDT();
 /** Timer end */

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51205a07-c1c9-4854-baae-63ee804bc6b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skills/gizadevice.com/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/skills/gizadevice.com/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skills/gizadevice.com/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="960" column="16" selection-start-line="960" selection-start-column="16" selection-end-line="960" selection-end-column="16" />
+            <state relative-caret-position="337">
+              <caret line="957" column="6" selection-start-line="957" selection-start-column="6" selection-end-line="957" selection-end-column="6" />
               <folding>
                 <element signature="n#!!block;n#callTopRecaptcha#0" />
               </folding>
@@ -167,12 +166,12 @@
       <workItem from="1527871821032" duration="21000" />
       <workItem from="1527938931862" duration="10729000" />
       <workItem from="1528015519925" duration="97000" />
-      <workItem from="1528054111868" duration="400000" />
+      <workItem from="1528054111868" duration="934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20857000" />
+    <option name="totallyTimeSpent" value="21391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -439,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/skills/gizadevice.com/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="960" column="16" selection-start-line="960" selection-start-column="16" selection-end-line="960" selection-end-column="16" />
+        <state relative-caret-position="337">
+          <caret line="957" column="6" selection-start-line="957" selection-start-column="6" selection-end-line="957" selection-end-column="6" />
           <folding>
             <element signature="n#!!block;n#callTopRecaptcha#0" />
           </folding>
