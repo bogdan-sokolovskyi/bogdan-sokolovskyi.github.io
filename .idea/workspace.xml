@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51205a07-c1c9-4854-baae-63ee804bc6b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/skills/gizadevice.com/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/skills/gizadevice.com/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,6 +29,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -69,6 +76,7 @@
         <option value="$PROJECT_DIR$/skills/adventageu/css/responsive.css" />
         <option value="$PROJECT_DIR$/sites/job_interview/9-lines.com/index.html" />
         <option value="$PROJECT_DIR$/skills/gizadevice.com/js/script.js" />
+        <option value="$PROJECT_DIR$/skills/TODO/todo.html" />
       </list>
     </option>
   </component>
@@ -98,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,28 +116,28 @@
             <path>
               <item name="bogdan-sokolovskyi.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bogdan-sokolovskyi.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="skills" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bogdan-sokolovskyi.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="skills" type="462c0819:PsiDirectoryNode" />
-              <item name="gizadevice.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bogdan-sokolovskyi.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="skills" type="462c0819:PsiDirectoryNode" />
-              <item name="gizadevice.com" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="TODO" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -166,25 +173,45 @@
       <workItem from="1527871821032" duration="21000" />
       <workItem from="1527938931862" duration="10729000" />
       <workItem from="1528015519925" duration="97000" />
-      <workItem from="1528054111868" duration="934000" />
+      <workItem from="1528054111868" duration="1531000" />
+      <workItem from="1528131515474" duration="604000" />
+      <workItem from="1528141502142" duration="601000" />
+      <workItem from="1528142871489" duration="209000" />
     </task>
+    <task id="LOCAL-00001" summary="TODO create">
+      <created>1528141884746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528141884746</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21391000" />
+    <option name="totallyTimeSpent" value="23477000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294893" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293919" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3294893" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -199,8 +226,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TODO create" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODO create" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -208,6 +265,43 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/skills/gizadevice.com/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23925">
+          <caret line="957" column="6" selection-start-line="957" selection-start-column="6" selection-end-line="957" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!block;n#callTopRecaptcha#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skills/TODO/todo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2875">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skills/gizadevice.com/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23925">
+          <caret line="957" column="6" selection-start-line="957" selection-start-column="6" selection-end-line="957" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!block;n#callTopRecaptcha#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skills/gizadevice.com/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23925">
+          <caret line="957" column="6" selection-start-line="957" selection-start-column="6" selection-end-line="957" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!block;n#callTopRecaptcha#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -433,6 +527,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skills/TODO/todo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
         </state>
       </provider>
     </entry>
