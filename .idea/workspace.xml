@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51205a07-c1c9-4854-baae-63ee804bc6b9" name="Default" comment="">
+    <list default="true" id="51205a07-c1c9-4854-baae-63ee804bc6b9" name="Default" comment="Table Editor Create">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skills/tableEditor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/skills/tableEditor/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,12 +16,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skills/tableEditor/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="-4723">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skills/tableEditor/user.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-134">
+              <caret selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -48,6 +58,7 @@
       <find>Kyiv</find>
       <find>kyi</find>
       <find>createList</find>
+      <find>exportData2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,6 +92,7 @@
         <option value="$PROJECT_DIR$/skills/TODO/todo.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/skills/TODO/index.html" />
+        <option value="$PROJECT_DIR$/skills/tableEditor/index.html" />
       </list>
     </option>
   </component>
@@ -98,7 +110,7 @@
       <path value="$PROJECT_DIR$/sites/job_interview/oss-test-front-end/html-template/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -110,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +150,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,7 +195,8 @@
       <workItem from="1528142871489" duration="520000" />
       <workItem from="1528181857996" duration="6472000" />
       <workItem from="1528206479671" duration="36000" />
-      <workItem from="1528280613285" duration="229000" />
+      <workItem from="1528280613285" duration="437000" />
+      <workItem from="1528314233517" duration="8022000" />
     </task>
     <task id="LOCAL-00001" summary="TODO create">
       <created>1528141884746</created>
@@ -217,7 +230,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30482000" />
+    <option name="totallyTimeSpent" value="38680000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,10 +609,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/skills/tableEditor/user.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/skills/tableEditor/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="-4723">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>

@@ -4,13 +4,13 @@
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
 	<style>
+		.table {margin-bottom: 0;}
+		.table th{background-color: #eee;}
 		.table-editable {
 			position: relative;
+			border: 1px solid #999;
+			margin: 40px 0 10px;
 		}
-		.table-editable .glyphicon {
-			font-size: 20px;
-		}
-
 		.table-remove {
 			color: #700;
 			cursor: pointer;
@@ -31,19 +31,20 @@
 			color: #070;
 			cursor: pointer;
 			position: absolute;
-			top: 8px;
-			right: 0;
+			top: 10px;
+			right: 8px;
 		}
 		.table-add:hover {
 			color: #0b0;
 		}
 		#textarea{
-			margin-top: 50px;
+			margin-top: 30px;
 		}
 		#textarea-btn{
 			display: block;
 			margin-top: 10px;
 		}
+		#export{margin: 30px 0;}
 
 	</style>
 </head>
@@ -52,18 +53,18 @@
 <div class="container">
 
 	<div id="table" class="table-editable">
-		<span class="table-add glyphicon glyphicon-plus"></span>
+		<span class="table-add">ADD</span>
 		<table class="table">
-			<!-- This is our clonable table line -->
+
 			<tr class="hide">
 				<td contenteditable="true"></td>
 				<td contenteditable="true"></td>
 				<td>
-					<span class="table-remove glyphicon glyphicon-remove"></span>
+					<span class="table-remove">DELETE</span>
 				</td>
 				<td>
-					<span class="table-up glyphicon glyphicon-arrow-up"></span>
-					<span class="table-down glyphicon glyphicon-arrow-down"></span>
+					<span class="table-up">UP</span> |
+					<span class="table-down">DOWN</span>
 				</td>
 			</tr>
 			<tr>
@@ -73,39 +74,28 @@
 				<th></th>
 			</tr>
 			<tr>
-				<td contenteditable="true">Name1</td>
-				<td contenteditable="true">Value1</td>
+				<td contenteditable="true">New Name</td>
+				<td contenteditable="true">New Value</td>
 				<td>
-					<span class="table-remove glyphicon glyphicon-remove"></span>
+					<span class="table-remove">DELETE</span>
 				</td>
 				<td>
-					<span class="table-up glyphicon glyphicon-arrow-up"></span>
-					<span class="table-down glyphicon glyphicon-arrow-down"></span>
-				</td>
-			</tr>
-			<tr>
-				<td contenteditable="true">Name2</td>
-				<td contenteditable="true">Value2</td>
-				<td>
-					<span class="table-remove glyphicon glyphicon-remove"></span>
-				</td>
-				<td>
-					<span class="table-up glyphicon glyphicon-arrow-up"></span>
-					<span class="table-down glyphicon glyphicon-arrow-down"></span>
+					<span class="table-up">UP</span> |
+					<span class="table-down">DOWN</span>
 				</td>
 			</tr>
 		</table>
 	</div>
 
-	<button id="export-btn" class="btn btn-primary">Export Data</button>
+	<button id="export-btn" class="btn btn-primary">EXPORT DATA</button>
+
 	<p id="export"></p>
 
 	<form id="textarea">
 		<h4>Add JSON data to text field</h4>
 		<textarea id="textarea-row" rows="10" cols="50" name="text"></textarea>
-		<button id="textarea-btn" class="btn btn-primary">Export Textarea</button>
+		<button id="textarea-btn" class="btn btn-primary">ADD DATA</button>
 	</form>
-	<p id="export2"></p>
 </div>
 
 <script type="text/javascript">
@@ -114,7 +104,6 @@
 	let btn  = document.querySelector('#export-btn');
 	let textareaBtn = document.querySelector('#textarea-btn');
 	let exportData = document.querySelector('#export');
-	let exportData2 = document.querySelector('#export2');
 	let tableAdd = document.querySelector('.table-add');
 
 	function tableAddRow (){
@@ -187,16 +176,30 @@
 
 			data.push(h);
 		});
-		console.log(data);
 
 		exportData.textContent = JSON.stringify(data);
 	}
 
 	function textareaBtnForm(e){
-		let str = [];
+		let arr = [];
 		e.preventDefault();
-		str.textContent = JSON.parse(textareaBtn.previousElementSibling.value);
-		exportData2.textContent = JSON.stringify(str.textContent);
+		arr.textContent = JSON.parse(textareaBtn.previousElementSibling.value);
+
+		let data = arr.textContent;
+		let trRemove = Array.from(table.querySelectorAll('tr'));
+		trRemove.map(function (item, i) {
+			if(i >= 2) return item.remove();
+		});
+		data.forEach(function (header) {
+			let trHide = table.querySelector('tr.hide');
+			let clone = trHide.cloneNode(true);
+			clone.classList.remove('hide');
+			trHide.parentElement.appendChild(clone);
+
+			clone.children[0].textContent = header.name;
+			clone.children[1].textContent = header.value;
+		});
+
 	}
 
 	tableAdd.addEventListener('click', tableAddRow);
