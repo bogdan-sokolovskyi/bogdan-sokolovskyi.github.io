@@ -1,0 +1,212 @@
+<html>
+<head>
+	<title>Table Editor</title>
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<style>
+		.table-editable {
+			position: relative;
+		}
+		.table-editable .glyphicon {
+			font-size: 20px;
+		}
+
+		.table-remove {
+			color: #700;
+			cursor: pointer;
+		}
+		.table-remove:hover {
+			color: #f00;
+		}
+
+		.table-up, .table-down {
+			color: #007;
+			cursor: pointer;
+		}
+		.table-up:hover, .table-down:hover {
+			color: #00f;
+		}
+
+		.table-add {
+			color: #070;
+			cursor: pointer;
+			position: absolute;
+			top: 8px;
+			right: 0;
+		}
+		.table-add:hover {
+			color: #0b0;
+		}
+		#textarea{
+			margin-top: 50px;
+		}
+		#textarea-btn{
+			display: block;
+			margin-top: 10px;
+		}
+
+	</style>
+</head>
+<body>
+
+<div class="container">
+
+	<div id="table" class="table-editable">
+		<span class="table-add glyphicon glyphicon-plus"></span>
+		<table class="table">
+			<!-- This is our clonable table line -->
+			<tr class="hide">
+				<td contenteditable="true"></td>
+				<td contenteditable="true"></td>
+				<td>
+					<span class="table-remove glyphicon glyphicon-remove"></span>
+				</td>
+				<td>
+					<span class="table-up glyphicon glyphicon-arrow-up"></span>
+					<span class="table-down glyphicon glyphicon-arrow-down"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>Name</th>
+				<th>Value</th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<td contenteditable="true">Name1</td>
+				<td contenteditable="true">Value1</td>
+				<td>
+					<span class="table-remove glyphicon glyphicon-remove"></span>
+				</td>
+				<td>
+					<span class="table-up glyphicon glyphicon-arrow-up"></span>
+					<span class="table-down glyphicon glyphicon-arrow-down"></span>
+				</td>
+			</tr>
+			<tr>
+				<td contenteditable="true">Name2</td>
+				<td contenteditable="true">Value2</td>
+				<td>
+					<span class="table-remove glyphicon glyphicon-remove"></span>
+				</td>
+				<td>
+					<span class="table-up glyphicon glyphicon-arrow-up"></span>
+					<span class="table-down glyphicon glyphicon-arrow-down"></span>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<button id="export-btn" class="btn btn-primary">Export Data</button>
+	<p id="export"></p>
+
+	<form id="textarea">
+		<h4>Add JSON data to text field</h4>
+		<textarea id="textarea-row" rows="10" cols="50" name="text"></textarea>
+		<button id="textarea-btn" class="btn btn-primary">Export Textarea</button>
+	</form>
+	<p id="export2"></p>
+</div>
+
+<script type="text/javascript">
+
+	let table = document.querySelector('.table');
+	let btn  = document.querySelector('#export-btn');
+	let textareaBtn = document.querySelector('#textarea-btn');
+	let exportData = document.querySelector('#export');
+	let exportData2 = document.querySelector('#export2');
+	let tableAdd = document.querySelector('.table-add');
+
+	function tableAddRow (){
+		let trHide = table.querySelector('tr.hide');
+		let clone = trHide.cloneNode(true);
+		clone.classList.remove('hide');
+		trHide.parentElement.appendChild(clone);
+	}
+
+	function tableRemoveRow(e){
+		let target = e.target;
+		while(target != table){
+			if(target.classList.contains('table-remove')){
+				target.parentNode.parentNode.remove();
+				return;
+			}
+			target = target.parentNode;
+		}
+	}
+
+	function tableUpRow(e){
+		let target = e.target;
+		let row = target.parentNode.parentNode;
+		let rowUp = row;
+		while(target != table){
+			if(target.classList.contains('table-up')){
+				if(row.parentElement.children[2] == row) return;
+				row.parentNode.insertBefore(rowUp, row.previousElementSibling);
+			}
+			return;
+			target = target.parentNode;
+		}
+	}
+
+	function tableDownRow(e){
+		let target = e.target;
+		let row = target.parentNode.parentNode;
+		let rowDown = row;
+		while(target != table){
+			if(target.classList.contains('table-down')){
+				if(row.parentElement.lastElementChild == row) return;
+				Element.prototype.appendAfter = function (element) {
+					element.parentNode.insertBefore(this, element.nextSibling);
+				}, false;
+				rowDown.appendAfter(row.nextElementSibling);
+			}
+			return;
+			target = target.parentNode;
+		}
+	}
+
+	function exportBtn (){
+		let rows = Array.from(table.querySelectorAll('tr:not(.hide)'));
+		let rowsName = Array.from(table.querySelectorAll('th:not(:empty)'));
+		let headers = [];
+		let data = [];
+
+		rows.shift();
+		rowsName.forEach(function (item) {
+			headers.push(item.innerText.toLowerCase());
+		});
+
+		rows.forEach(function (item) {
+			let td = item.cells;
+			let h = {};
+
+			headers.forEach(function (header, i) {
+				h[header] = td[i].textContent;
+			});
+
+			data.push(h);
+		});
+		console.log(data);
+
+		exportData.textContent = JSON.stringify(data);
+	}
+
+	function textareaBtnForm(e){
+		let str = [];
+		e.preventDefault();
+		str.textContent = JSON.parse(textareaBtn.previousElementSibling.value);
+		exportData2.textContent = JSON.stringify(str.textContent);
+	}
+
+	tableAdd.addEventListener('click', tableAddRow);
+	table.addEventListener('click', tableRemoveRow);
+	table.addEventListener('click', tableUpRow);
+	table.addEventListener('click', tableDownRow);
+	btn.addEventListener('click', exportBtn);
+	textareaBtn.addEventListener('click', textareaBtnForm);
+
+</script>
+
+</body>
+</html>

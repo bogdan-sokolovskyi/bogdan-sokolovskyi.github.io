@@ -17,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skills/TODO/index.html">
+        <entry file="file://$PROJECT_DIR$/skills/tableEditor/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="137" column="21" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+            <state relative-caret-position="275">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -98,7 +98,7 @@
       <path value="$PROJECT_DIR$/sites/job_interview/oss-test-front-end/html-template/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -121,6 +121,17 @@
               <item name="bogdan-sokolovskyi.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="sites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bogdan-sokolovskyi.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="skills" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bogdan-sokolovskyi.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bogdan-sokolovskyi.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="skills" type="462c0819:PsiDirectoryNode" />
+              <item name="tableEditor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,6 +183,7 @@
       <workItem from="1528142871489" duration="520000" />
       <workItem from="1528181857996" duration="6472000" />
       <workItem from="1528206479671" duration="36000" />
+      <workItem from="1528280613285" duration="229000" />
     </task>
     <task id="LOCAL-00001" summary="TODO create">
       <created>1528141884746</created>
@@ -194,11 +206,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528186216144</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Table Editor Create">
+      <created>1528280815133</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528280815133</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30221000" />
+    <option name="totallyTimeSpent" value="30482000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,7 +287,8 @@
     <MESSAGE value="TODO create" />
     <MESSAGE value="style fix css TODO" />
     <MESSAGE value="Kyiv change location" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kyiv change location" />
+    <MESSAGE value="Table Editor Create" />
+    <option name="LAST_COMMIT_MESSAGE" value="Table Editor Create" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -276,6 +296,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/skills/TODO/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3425">
+          <caret line="137" column="21" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/skills/TODO/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3425">
@@ -566,6 +593,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="137" column="21" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skills/tableEditor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
