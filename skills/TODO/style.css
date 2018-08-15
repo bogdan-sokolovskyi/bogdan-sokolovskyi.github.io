@@ -1,0 +1,104 @@
+body {
+	display: flex;
+	min-height: 400px;
+	background-color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	line-height: 1.2;
+	color: #222;
+}
+.wrapper {
+	position: relative;
+	width: 400px;
+	margin: auto;
+}
+.wrapper > h1{
+	text-align: center;
+}
+.todo-list {
+	height: 420px;
+	padding: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	overflow-y: auto;
+	overflow-x: hidden;
+	list-style-type: none;
+}
+.todo-list .task {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	background-color: rgba(0, 0, 0, 0.02);
+}
+.todo-list .task h2{
+	margin: 15px;
+	font-size: 22px;
+}
+.todo-list .task .task-block{
+	margin: 0 15px 15px;
+	display: flex;
+	justify-content: space-between;
+	color: #888888;
+}
+.todo-list .task .task-block a,
+.todo-list .task .task-block span{
+	text-decoration: none;
+	color: #222;
+}
+.todo-list .task .buttons{
+	margin: 0 15px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.todo-list .task .button-block{
+	display: inline-block;
+}
+.todo-list .task .description {
+	display: none;
+	margin: 15px;
+}
+.todo-list .task.selected .description {
+	display: block;
+}
+#controls{
+	padding: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#controls form{
+	display: flex;
+	justify-content: space-between;
+}
+#controls .controls-button{
+	display: inline-block;
+}
+.form {
+	display: none;
+	padding: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.form textarea {
+	resize: vertical;
+	overflow: auto;
+}
+#filterByProjects option[value='']{
+	display: none;
+}
+.form  .form-block{
+	text-align: right;
+	margin-bottom: 10px;
+}
+.form  .form-block label{
+	margin-right: 6px;
+}
+.form  .form-block input,
+.form  .form-block textarea{
+	width: 200px;
+}
+.form  .form-block select {
+	width: 205px;
+}
+.form  .form-block .form-block-textarea{
+	position: relative;
+	top: -50px;
+}
