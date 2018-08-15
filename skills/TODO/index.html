@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Bogdan Sokolovskyi">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>TODO</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+	<h1>TODO:</h1>
+	<div class="tasks">
+		<ul class="todo-list" id="todoList"></ul>
+	</div>
+	<div id="controls">
+		<form>
+			<div class="controls-button">
+				<button type="button" id="newTask">Добавить</button>
+			</div>
+			<div class="controls-button">
+				<label><input type="checkbox" name="sort" id="sortTasks" /> по приоритету</label>
+			</div>
+			<div class="controls-button">
+				<select id="filterByProjects"></select>
+			</div>
+		</form>
+	</div>
+	<div class="form" data-task-id="">
+		<form>
+			<div class="form-block">
+				<label for="taskTitle">Заголовок задачи:</label>
+				<input type="text" id="taskTitle" required>
+			</div>
+			<div class="form-block">
+				<label for="projectTitle">Название проекта:</label>
+				<input type="text" id="projectTitle" required>
+			</div>
+			<div class="form-block">
+				<label for="priority">Приоритет:</label>
+				<select id="priority" required>
+					<option value="" disabled selected>Выберите приоритет</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+			</div>
+			<div class="form-block">
+				<label class="form-block-textarea" for="projectTitle">Описание:</label>
+				<textarea id="taskDescription" rows="4" required></textarea>
+			</div>
+			<div class="form-block">
+				<button type="submit">Сохранить</button>
+				<button type="reset">Отменить</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
