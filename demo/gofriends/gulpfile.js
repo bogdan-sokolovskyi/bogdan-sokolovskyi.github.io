@@ -25,7 +25,7 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('styles', function() {
-	return gulp.src('app/'+syntax+'/**/*.'+syntax+'')
+	return gulp.src(['app/'+syntax+'/**/*.'+syntax+'', 'app/'+syntax+'/*.css'])
 	.pipe(sass({ outputStyle: 'expand' }).on("error", notify.onError()))
 	//.pipe(rename({ suffix: '.min', prefix : '' }))
 	.pipe(autoprefixer(['last 15 versions']))
@@ -62,7 +62,7 @@ gulp.task('rsync', function() {
 });
 
 gulp.task('watch', ['styles', 'js', 'browser-sync'], function() {
-	gulp.watch('app/'+syntax+'/**/*.'+syntax+'', ['styles']);
+	gulp.watch('app/'+syntax+'/**/*.'+syntax+'',  ['styles']);
 	gulp.watch([/*'libs/!**!/!*.js',*/ 'app/js/main.js'], ['js']);
 	gulp.watch('app/*.html', browserSync.reload)
 });

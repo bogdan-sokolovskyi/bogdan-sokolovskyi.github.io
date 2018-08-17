@@ -197,6 +197,70 @@ a:focus
 //END Language switcher
 
 
+//MobileMenu
+.toggle-mnu
+	width: 28px
+	height: 28px
+	margin-top: 24px
+	position: absolute
+	right: 15px
+	top: 0
+	span
+		position: relative
+		display: block
+		width: 100%
+		height: 2px
+		background-color: #fff
+		-webkit-transition: all 0.3s
+		-o-transition: all 0.3s
+		transition: all 0.3s
+		-webkit-backface-visibility: hidden
+		backface-visibility: hidden
+		-webkit-border-radius: 2px
+		border-radius: 2px
+		&:after, &:before
+			content: ""
+			position: absolute
+			left: 0
+			top: 9px
+		&:after
+			top: 18px
+			width: 100%
+			height: 2px
+			background-color: #fff
+			-webkit-transition: all 0.3s
+			-o-transition: all 0.3s
+			transition: all 0.3s
+			-webkit-backface-visibility: hidden
+			backface-visibility: hidden
+			-webkit-border-radius: 2px
+			border-radius: 2px
+		&:before
+			width: 100%
+			height: 2px
+			background-color: #fff
+			-webkit-transition: all 0.3s
+			-o-transition: all 0.3s
+			transition: all 0.3s
+			-webkit-backface-visibility: hidden
+			backface-visibility: hidden
+			-webkit-border-radius: 2px
+			border-radius: 2px
+	&.on span
+		background-color: transparent
+		&:before
+			-webkit-transform: rotate(45deg) translate(-1px, 0px)
+			-ms-transform: rotate(45deg) translate(-1px, 0px)
+			transform: rotate(45deg) translate(-1px, 0px)
+		&:after
+			-webkit-transform: rotate(-45deg) translate(6px, -7px)
+			-ms-transform: rotate(-45deg) translate(6px, -7px)
+			transform: rotate(-45deg) translate(6px, -7px)
+#menu
+	z-index: 9999
+.mm-listview > li:not(.mm-divider):after
+	left: 0
+//End MobileMenu
 
 //END HEADER
 
@@ -207,5 +271,13 @@ a:focus
 	background-image: url(../img/main.jpg)
 	height: 910px
 
+
+footer
+	padding: 30px 0
+	background-color: #2e3340
+	h3
+		color: #ffffff
+		text-align: center
+		margin: 0
 
 @import "media" // Always at the end

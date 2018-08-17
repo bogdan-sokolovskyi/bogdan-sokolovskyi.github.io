@@ -7,21 +7,55 @@
 +media-breakpoint-down(lg)
 	.hidden-lg
 		display: none
+	.header-top
+		&:after
+			margin-left: -438px
+		&:before
+			left: -390px
 
 // ≥992px
 +media-breakpoint-down(md)
 	.hidden-md
 		display: none
+	.header-top-logo
+		text-align: left
+	.header-top
+		&:after
+			margin-left: -328px
+		&:before
+			left: -280px
+	.header-top-address li a img
+		top: -4px
 
 // ≥768px
 +media-breakpoint-down(sm)
 	.hidden-sm
 		display: none
+	.header-top
+		&:after
+			margin-left: -245px
+		&:before
+			left: -200px
 
 // ≥576px
 +media-breakpoint-down(xs)
 	.hidden-xs
 		display: none
+	.header-down
+		padding: 0 0 7px
+	.header-top
+		&:after
+			margin-left: -140px
+		&:before
+			left: -95px
+		&-address li
+			a
+				padding-left: 20px
+				font-size: 10px!important
+				img
+					top: -1px
+					width: 18px
+
 
 
 /*==========  Mobile First  ==========*/
