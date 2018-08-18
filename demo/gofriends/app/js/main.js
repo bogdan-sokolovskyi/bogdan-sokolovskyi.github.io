@@ -188,4 +188,18 @@ $(function() {
 	}
 	//End Calendar
 
+
+	//Equal Height
+	function equalFunc() {
+		if (window.innerWidth > 576) {
+			$('.section-2-boxses-box p').height('auto').equalHeights();
+		}
+		else{
+			$('.section-2-boxses-box p').height('auto');
+		}
+	}
+	window.addEventListener("load", equalFunc);
+	window.addEventListener("resize", equalFunc);
+	//END Equal Height
+
 });

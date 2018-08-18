@@ -267,6 +267,7 @@ a:focus
 .section-1
 	position: relative
 	background-image: url(../img/main.jpg)
+	background-size: cover
 	height: 910px
 	display: flex
 	align-items: center
@@ -274,6 +275,7 @@ a:focus
 		display: flex
 		align-items: center
 		width: 100%
+		margin-top: -134px
 		&-title
 			text-align: center
 			background-color: rgba(255, 255, 255, .8)
@@ -400,6 +402,101 @@ a:focus
 //End Button
 
 //END SECTION 1
+
+
+//SECTION 2
+.section-2
+	&:before
+		content: ''
+		position: absolute
+		top: -160px
+		left: 0
+		background-image: url(../img/section-fon.png)
+		background-repeat: no-repeat
+		background-size: cover
+		width: 100%
+		height: 100%
+	position: relative
+	align-items: center
+	min-height: 604px  //764px - 160px
+	background-color: #96ced1
+	&-boxses
+		display: flex
+		flex-wrap: wrap
+		&-box
+			width: 33.33%
+			text-align: center
+			position: relative
+			padding: 0 20px
+			p
+				margin: 0
+				color: #000000
+				font-size: 20px
+				font-family: $default-font-semibold
+				line-height: 1.6
+
+.section-2-boxses-box
+	&:nth-child(1):before,
+	&:nth-child(2):before,
+	&:nth-child(4):before,
+	&:nth-child(5):before
+		content: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .'
+		width: 64%
+		display: block
+		//border-top: 3px dotted #fff
+		position: absolute
+		left: 68%
+		line-height: 1
+		height: 30px
+		overflow: hidden
+		color: #fff
+	&:nth-child(1):before,
+	&:nth-child(2):before
+		top: 46px
+	&:nth-child(4):before,
+	&:nth-child(5):before
+		bottom: 46px
+	&:nth-child(1) img,
+	&:nth-child(2) img,
+	&:nth-child(3) img
+		margin-bottom: 40px
+	&:nth-child(4) img,
+	&:nth-child(5) img,
+	&:nth-child(6) img
+		margin-top: 40px
+	&:nth-child(1):after,
+	&:nth-child(2):after,
+	&:nth-child(3):after,
+	&:nth-child(4):after,
+	&:nth-child(5):after,
+	&:nth-child(6):after
+		content: '. . .'
+		display: block
+		width: 40px
+		height: 1px
+		color: #ffffff
+		transform: rotate(90deg)
+		position: absolute
+		left: 49%
+		line-height: 1
+	&:nth-child(1):after,
+	&:nth-child(2):after,
+	&:nth-child(3):after
+		top: 142px
+	&:nth-child(4):after,
+	&:nth-child(5):after,
+	&:nth-child(6):after
+		bottom: 142px
+//END SECTION 2
+
+
+//SECTION 3
+
+//END SECTION 3
+
+
+
+
 
 //FOOTER
 footer
