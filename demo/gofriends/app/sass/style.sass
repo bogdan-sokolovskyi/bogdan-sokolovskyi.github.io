@@ -602,23 +602,20 @@ a:focus
 //Section 4 Owl Carousel
 //Owl theme default
 .owl-theme .owl-nav
-	margin-top: 10px
+	margin-top: 26px
 	text-align: center
 	-webkit-tap-highlight-color: transparent
 
 .owl-theme .owl-nav [class*=owl-]
 	color: #FFF
-	font-size: 14px
-	margin: 5px
-	padding: 4px 7px
-	background: #D6D6D6
+	font-size: 28px
+	padding: 21px 12px
+	background-color: rgba(000, 000, 000, .2)
 	display: inline-block
 	cursor: pointer
-	-webkit-border-radius: 3px
-	border-radius: 3px
 
 .owl-theme .owl-nav [class*=owl-]:hover
-	background: #869791
+	background-color: rgba(000, 000, 000, .3)
 	color: #FFF
 	text-decoration: none
 
@@ -655,31 +652,36 @@ a:focus
 	background: #869791
 //End Owl theme default
 
-#sync1 .item
-	background: #0c83e7
-	padding: 80px 0px
-	margin: 5px
-	color: #fff
-	-webkit-border-radius: 3px
-	-moz-border-radius: 3px
-	border-radius: 3px
-	text-align: center
+.slider
+	position: relative
+	#sync1,
+	#sync2
+		position: relative
+#sync1
+	z-index: 2
+	.item
+		background: #eee
 
 #sync2
+	padding: 0 42px
+	z-index: 1
 	.item
-		background: #c9c9c9
-		padding: 10px 0px
-		margin: 5px
-		color: #fff
-		-webkit-border-radius: 3px
-		-moz-border-radius: 3px
-		border-radius: 3px
-		text-align: center
+		background: #ddd
+		margin: 0 8px
 		cursor: pointer
-		h1
-			font-size: 18px
 	.current .item
-		background: #0c83e7
+		position: relative
+		&:before
+			content: ''
+			background-color: rgba(000, 000, 000, .4)
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			width: 100%
+			height: 100%
+			z-index: 1
 
 .owl-theme .owl-nav
 	[class*="owl-"]
@@ -690,22 +692,20 @@ a:focus
 #sync1.owl-theme
 	position: relative
 	.owl-next
-		width: 22px
-		height: 40px
+		width: 33px
+		height: 93px
 		margin-top: -20px
 		position: absolute
-		top: 50%
+		bottom: -119px
 	.owl-prev
-		width: 22px
-		height: 40px
+		width: 33px
+		height: 93px
 		margin-top: -20px
 		position: absolute
-		top: 50%
-		left: 10px
+		bottom: -119px
+		left: 0
 	.owl-next
-		right: 10px
-
-
+		right: 0
 //End Section 4 Owl Carousel
 
 //END SECTION 4
