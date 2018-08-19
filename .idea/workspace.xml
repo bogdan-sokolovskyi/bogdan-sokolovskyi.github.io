@@ -2,161 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51205a07-c1c9-4854-baae-63ee804bc6b9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/.idea/deployment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/.idea/gofriends.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/css/jquery.mmenu.all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/css/owl.carousel.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/fonts/FontAwesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/fonts/FontAwesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/fonts/FontAwesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/fonts/FontAwesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/fonts/FontAwesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/fonts/FontAwesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/fonts/FontAwesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/fonts/FontAwesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/fonts/OpenSans/OpenSans-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/fonts/OpenSans/OpenSans-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/fonts/OpenSans/OpenSans-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/fonts/OpenSans/OpenSans-SemiBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/flags/france.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/flags/germany.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/flags/russia.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/flags/usa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/icon-header-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/icon-header-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/main.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-1/shape-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-1/shape-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-1/shape-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-1/shape-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-1/shape-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-1/shape-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-2/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-2/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-2/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-2/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-2/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-2/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-2/aqua.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-2/black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-2/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-3/bg-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-3/slide-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-3/slide-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-3/slide-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-3/slide-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-3/slide-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-3/slide-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/img/section-fon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/js/scripts.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_breadcrumb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_button-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_card.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_carousel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_close.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_code.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_custom-forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_functions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_images.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_input-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_jumbotron.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_list-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_popover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_print.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_reboot.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_root.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_transitions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_utilities.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/bootstrap-grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/bootstrap-reboot.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/bootstrap.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_background-variant.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_border-radius.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_box-shadow.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_breakpoints.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_caret.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_float.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_gradients.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_grid-framework.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_hover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_image.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_list-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_lists.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_nav-divider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_navbar-align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_reset-text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_resize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_size.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_table-row.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_text-emphasis.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_text-hide.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_text-truncate.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_transition.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/mixins/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_background.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_borders.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_display.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_embed.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_flex.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_float.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_position.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_screenreaders.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_sizing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_spacing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/bootstrap/scss/utilities/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/jquery.equalHeights.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/jquery.mmenu.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/jquery/dist/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/libs/owl.carousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/sass/_fonts.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/sass/_libs.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/sass/_media.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/sass/_mixins/_font-face.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/sass/_vars.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/sass/jquery.mmenu.all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/sass/owl.carousel.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/app/sass/style.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/gofriends/package.json" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/gofriends/css/bootstrap-grid.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skills/gofriends/app/css/style.css" afterPath="$PROJECT_DIR$/skills/gofriends/app/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skills/gofriends/app/sass/style.sass" afterPath="$PROJECT_DIR$/skills/gofriends/app/sass/style.sass" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -177,7 +26,38 @@
     <favorites_list name="bogdan-sokolovskyi.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skills/gofriends/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skills/gofriends/app/sass/style.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/gofriends/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -251,6 +131,10 @@
         <option value="$PROJECT_DIR$/demo/gofriends/app/sass/_media.sass" />
         <option value="$PROJECT_DIR$/demo/gofriends/app/index.html" />
         <option value="$PROJECT_DIR$/demo/gofriends/app/sass/style.sass" />
+        <option value="$PROJECT_DIR$/skills/gofriends/app/sass/style.sass" />
+        <option value="$PROJECT_DIR$/demo/gofriends/css/style.css" />
+        <option value="$PROJECT_DIR$/demo/gofriends/css/bootstrap-grid.css" />
+        <option value="$PROJECT_DIR$/demo/gofriends/index.html" />
       </list>
     </option>
   </component>
@@ -342,7 +226,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="skills" />
+              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -360,7 +244,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="skills" />
+              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -368,7 +252,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -506,7 +390,7 @@
       <workItem from="1534525761037" duration="8522000" />
       <workItem from="1534576099336" duration="34663000" />
       <workItem from="1534661277948" duration="30837000" />
-      <workItem from="1534702081041" duration="485000" />
+      <workItem from="1534702081041" duration="2590000" />
     </task>
     <task id="LOCAL-00001" summary="TODO create">
       <created>1528141884746</created>
@@ -547,7 +431,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113934000" />
+    <option name="totallyTimeSpent" value="116039000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,41 +512,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6675">
-          <caret line="267" column="59" selection-start-line="267" selection-start-column="59" selection-end-line="267" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/job_interview/oss-test-front-end/form/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2750">
-          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6650">
-          <caret line="266" column="59" selection-start-line="266" selection-start-column="59" selection-end-line="266" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/job_interview/oss-test-front-end/form/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/job_interview/oss-test-front-end/html-template/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-433">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skills/adventageu/checklist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -964,6 +813,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skills/gofriends/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skills/gofriends/app/sass/style.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/gofriends/css/bootstrap-grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/gofriends/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1222">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/gofriends/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>

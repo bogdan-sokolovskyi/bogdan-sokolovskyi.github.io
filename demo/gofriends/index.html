@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>GoFriends</title>
+	<meta name="description" content="">
+	<meta name="author" content="Bogdan Sokolovskyi">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon.ico">
+
+	<!--Style css-->
+	<link rel="stylesheet" href="fonts/FontAwesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/jquery.mmenu.all.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+	<!--Header Top-->
+	<div class="header-top">
+		<div class="container">
+			<div class="row">
+				<!--Logo icon-->
+				<div class="col-lg-2 col-md-9 col-sm-8 col-7">
+					<div class="header-top-logo">
+						<a href="javascript:void(0);"><img src="img/logo.png" alt="#"></a>
+					</div>
+				</div>
+				<!--Address section-->
+				<div class="col-md-8 hidden-md">
+					<ul class="header-top-address">
+						<li>
+							<a href="#"><img src="img/icon-header-1.png" alt="#">+49 30 69531863</a>
+						</li>
+						<li>
+							<a href="#"><img src="img/icon-header-2.png" alt="#">Schlesische Straße 22, 10997 Berlin</a>
+						</li>
+					</ul>
+				</div>
+				<!--Language switch-->
+				<div class="col-lg-2 col-md-2 col-sm-2 col-3">
+					<div class="header-top-lang">
+						<!--Switcher-->
+						<div class="switch-lang">
+							<div class="switch-lang-current">
+								<img src="img/flags/russia.png" alt="#"/>
+								<p>RU</p>
+								<span class="arrow"></span>
+							</div>
+							<ul>
+								<li>
+									<img src="img/flags/usa.png" alt="#"/>
+									<p>EN</p>
+								</li>
+								<li>
+									<img src="img/flags/germany.png" alt="#"/>
+									<p>DE</p>
+								</li>
+								<li>
+									<img src="img/flags/france.png" alt="#"/>
+									<p>FR</p>
+								</li>
+							</ul>
+						</div>
+						<!--End Switcher-->
+					</div>
+				</div>
+				<!-- MobileMenu -->
+				<div class="col-xl-1 col-md-1 col-2 hidden-lg-up">
+					<a class="toggle-mnu" href="#menu"><span></span></a>
+					<div id="menu">
+						<ul>
+							<li><a href="#">Преимущества</a></li>
+							<li><a href="#">Номера и цены</a></li>
+							<li><a href="#">Почему мы?</a></li>
+							<li><a href="#">Что рядом?</a></li>
+							<li><a href="#">Галерея</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- Mobile Menu Area End  -->
+			</div>
+		</div>
+	</div>
+	<!--End Header Top-->
+
+	<!--Header Bottom-->
+	<div class="header-down">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 hidden-md">
+					<h4>Сеть хостелов в Германии</h4>
+				</div>
+				<div class="col-md-9 hidden-md">
+					<div class="header-down-menu">
+						<nav>
+							<ul>
+								<li><a href="javascript:void(0);">Преимущества</a></li>
+								<li><a href="javascript:void(0);">Номера и цены</a></li>
+								<li><a href="javascript:void(0);">Почему мы?</a></li>
+								<li><a href="javascript:void(0);">Что рядом?</a></li>
+								<li><a href="javascript:void(0);">Галерея</a></li>
+								<li><a href="javascript:void(0);">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+
+				<!--Mobile Address section-->
+				<div class="col-md-12 hidden-lg-up">
+					<ul class="header-top-address">
+						<li>
+							<a href="#"><img src="img/icon-header-1.png" alt="#">+49 30 69531863</a>
+						</li>
+						<li>
+							<a href="#"><img src="img/icon-header-2.png" alt="#">Schlesische Straße 22, 10997 Berlin</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!--End Header Bottom-->
+</header>
+<!-- END HEADER -->
+
+<!--SECTION 1-->
+<section class="section-1">
+	<div class="container">
+		<div class="row">
+			<div class="section-1-desc">
+				<div class="col-lg-7 col-md-6 hidden-sm">
+					<div class="section-1-desc-title">
+						<p>Европейский Хостел<br> в 5 минутах от Александрплатц.</p>
+						<p>Живи в центре Берлина<br> от <span>13,00 Евро в сутки!</span></p>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-6 col-sm-12">
+					<div class="calendar">
+						<div class="calendar-button">
+							<button id="btnPrev" type="button"></button>
+							<button id="btnNext" type="button"></button>
+						</div>
+						<div id="divCal"></div>
+						<button class="button">Забронируй сейчас!</button>
+					</div>
+				</div>
+			</div>
+		</div><!-- row -->
+	</div>
+</section>
+
+<!--SECTION 2-->
+<section class="section-2">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+
+				<div class="section-2-boxses">
+					<!--box-->
+					<div class="section-2-boxses-box">
+						<img src="img/section-1/shape-1.png" alt="#">
+						<p>1200 клиентов в месяц<br> из 50 стран</p>
+					</div>
+					<!--box-->
+					<div class="section-2-boxses-box">
+						<img src="img/section-1/shape-2.png" alt="#">
+						<p>Доступ в хостел<br> 24 часа</p>
+					</div>
+					<!--box-->
+					<div class="section-2-boxses-box">
+						<img src="img/section-1/shape-3.png" alt="#">
+						<p>Свежий ремонт и ежедневная	двухразовая уборка</p>
+					</div>
+					<!--box-->
+					<div class="section-2-boxses-box">
+						<p>Free WiFi и столы<br> с компьютерами</p>
+						<img src="img/section-1/shape-4.png" alt="#">
+					</div>
+					<!--box-->
+					<div class="section-2-boxses-box">
+						<p>Общая кухня с полным комплектом бытовой техники, кофейной машиной и Open Space</p>
+						<img src="img/section-1/shape-5.png" alt="#">
+					</div>
+					<!--box-->
+					<div class="section-2-boxses-box">
+						<p>11 санузлов и 10 душевых, прачечная</p>
+						<img src="img/section-1/shape-6.png" alt="#">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--SECTION 3-->
+<section class="section-3">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+
+				<h1>Что рядом<br>	с хостелом StayComfort в Берлине</h1>
+
+				<div class="section-3-boxses nthFirst">
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="black">5,1 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/1.png" alt="#">
+						</div>
+						<p>Бранденбургские ворота и Рейхстаг</p>
+					</div>
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="black">4 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/black.png" alt="#">
+						</div>
+						<p>Музейный<br>	остров</p>
+					</div>
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="green">0,3 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/green.png" alt="#">
+						</div>
+						<p>Семь ресторанов,	баров и кафе. Два	супермаркета.</p>
+					</div>
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="aqua">0,8 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/2.png" alt="#">
+						</div>
+						<p>Mercedes Benz<br> Arena</p>
+					</div>
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="black">4 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/black.png" alt="#">
+						</div>
+						<p>Жандарменмаркт</p>
+					</div>
+
+				</div>
+
+				<div class="section-3-boxses nthSecond">
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="black">3,5 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/3.png" alt="#">
+						</div>
+						<p>Александерплац</p>
+					</div>
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="green">0,5 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/green.png" alt="#">
+						</div>
+						<p>Арена<br> Берлин</p>
+					</div>
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<div class="img-wrap">
+							<img src="img/section-2/4.png" alt="#">
+						</div>
+					</div>
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="green">0,3 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/green.png" alt="#">
+						</div>
+						<p>Мост Обербаумбрюкке</p>
+					</div>
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="aqua">0,7 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/aqua.png" alt="#">
+						</div>
+						<p>Галерея<br> восточной<br> стороны</p>
+					</div>
+
+				</div>
+
+				<div class="section-3-boxses nthThird">
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="black">8,5 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/black.png" alt="#">
+						</div>
+						<p>Курфюрстендамм</p>
+					</div>
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="black">4 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/5.png" alt="#">
+						</div>
+						<p>КПП Чекпойнт Чарли</p>
+					</div>
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="aqua">0,8 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/aqua.png" alt="#">
+						</div>
+						<p>Станция метро<br>	Warschauer<br>	Straße</p>
+					</div>
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="black">5,8 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/black.png" alt="#">
+						</div>
+						<p>Музей<br>	естественной<br>	истории</p>
+					</div>
+					<!--box-->
+					<div class="section-3-boxses-box">
+						<span class="black">6,2 km</span>
+						<div class="img-wrap">
+							<img src="img/section-2/6.png" alt="#">
+						</div>
+						<p>Центральный вокзал<br> Берлина</p>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--SECTION 4-->
+<section class="section-4">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-12">
+				<h1>Галерея<br>	хостела StayComfort в Берлине</h1>
+			</div>
+
+			<div class="col-md-9 col-sm-12">
+				<!--slider-->
+				<div class="slider">
+
+					<div id="sync1" class="owl-carousel owl-theme">
+						<div class="item"><img src="img/section-3/slide-6.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-2.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-1.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-4.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-5.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-3.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-1.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-2.jpg" alt="#"></div>
+					</div>
+
+					<div id="sync2" class="owl-carousel owl-theme">
+						<div class="item"><img src="img/section-3/slide-6.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-2.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-1.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-4.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-5.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-3.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-1.jpg" alt="#"></div>
+						<div class="item"><img src="img/section-3/slide-2.jpg" alt="#"></div>
+					</div>
+
+				</div>
+				<!--end slider-->
+			</div>
+
+			<!--Right side-->
+			<div class="col-md-3 col-sm-12">
+				<ul class="section-4-items">
+					<li class="section-4-items-item">10 местный номер</li>
+					<li class="section-4-items-item">8 местный номер</li>
+					<li class="section-4-items-item">6 местный номер</li>
+					<li class="section-4-items-item">4 местный номер</li>
+					<li class="section-4-items-item active">4 местный семейный	номер</li>
+					<li class="section-4-items-item">2 местный семейный	номер</li>
+					<li class="section-4-items-item">Кухня</li>
+				</ul>
+			</div>
+
+			<!--Button-->
+			<div class="col-sm-12 text-center">
+				<button class="button btn-sec4">Забронируй сейчас!</button>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!--FOOTER-->
+<footer><h3>FOOTER</h3></footer>
+
+<!--Scripts JS-->
+<script src="js/scripts.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
