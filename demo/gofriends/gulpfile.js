@@ -38,7 +38,8 @@ gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/jquery.mmenu.all.js',
-		'app/libs/jquery.equalHeights.min.js'
+		'app/libs/jquery.equalHeights.min.js',
+		'app/libs/owl.carousel.min.js'
 		//'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))
