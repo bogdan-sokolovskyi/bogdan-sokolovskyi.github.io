@@ -575,7 +575,7 @@ p {
 }
 .timeline-mail {
   background: url('../img/progress-mail3.png') no-repeat center center;
-  background-size: 400px 500px;
+  background-size: 400px 502px;
 }
 .timeline-title {
   background: url('../img/progress-section-title3.png') no-repeat center center;
@@ -724,6 +724,9 @@ p {
 }
 .progress-bar-8 {
   background: #F4BF00;
+}
+.progress-bar-9 {
+  background: #61dafb;
 }
 /* ==========================================================
 ! 11. Section: Portfolio
