@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Торговля с компанией Gerchik & Co</title>
+    <meta property="og:image" content="img/preview.png">
+
+	<meta name="description" content="Лучшие условия торговли на финансовых рынках с Gerchik & Co - реальным STP брокером">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet"> 
+
+	<link rel="icon" href="img/favicon.ico">
+
+	<link rel="stylesheet" href="fonts/Font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/intlTelInput.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/main.min.css">
+
+
+
+</head>
+<body>
+
+
+	<div class="wrapper" id="translate">
+		<div class="header">
+			<div class="header__center content--center">
+				<a href="https://gerchikco.com/" class="logo" target="_blank">
+					<img src="./img/logo.svg" alt="">
+				</a>
+
+                <ul class="nav-main header__nav">
+                    <li><a href="#" class="in-click">{{ header_lang1 }}</a></li>
+                    <li><a href="#" class="sh-click">{{ header_lang2 }}</a></li>
+                    <li><a href="#" class="sv-click">{{ header_lang3 }}</a></li>
+                </ul>
+
+                <div class="lang header__lang">
+                    <a href="#" class="lang__link"><b>RU</b> <i>></i></a>
+                    <div class="lang-show">
+                        <a href="#" class="lang-show__link ru-lang" @click="loadRu">RU</a>
+                        <a href="#" class="lang-show__link en-lang" @click="loadEn">EN</a>
+                    </div>
+                </div>
+
+				<div>
+                	<a href="https://po.gerchikco.com/site/signup-individual" class="button btn--header" target="_blank">{{ header_lang4 }}</a>
+                </div>
+
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="slide-menu">
+                    <ul>
+                        <li><a href="https://po.gerchikco.com/site/signup-individual" class="slide-menu__open" target="_blank">{{ header_lang4 }}</a></li>
+                        <li><a href="#" class="in-click">{{ header_lang1 }}</a></li>
+                        <li><a href="#" class="sh-click">{{ header_lang2 }}</a></li>
+                        <li><a href="#" class="sv-click">{{ header_lang3 }}</a></li>
+                    </ul>
+
+                    <div class="slide-menu__links">
+                        <a href="#" class="en-lang" @click="loadEn">ENG</a>
+                        <span class="separate"></span>
+                        <a href="#" class="ru-lang" @click="loadRu">RU</a>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+		<div class="banner">
+			<div class="banner__center content--center">
+				<div class="banner-text">
+					<div class="banner-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+						<span v-html="banner_lang1"></span>
+					</div>
+
+					<p class="banner-p" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <span v-html="banner_lang2"></span>
+					</p>
+
+					<div data-aos="fade" data-aos-delay="800" data-aos-duration="1000" data-aos-easing="ease-in-out">
+						<a href="https://po.gerchikco.com/site/signup-individual" class="button btn--banner" target="_blank">
+							{{ banner_lang3 }}
+						</a>
+					</div>
+
+					<p class="banner-demo" data-aos="fade" data-aos-delay="600" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        {{ banner_lang4 }} <a href="#">{{ banner_lang5 }}</a>
+					</p>
+				</div>
+
+				<div class="banner-image">
+					<img src="./img/banner.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+        <div class="stats">
+            <div class="stats__center content--center">
+                <div class="stats-block" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <div class="stats-block__count">
+                        0.0
+                    </div>
+                    <div class="stats-block__text">
+                        {{ stats_lang1 }}
+                    </div>
+                </div>
+
+                <div class="stats-block" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <div class="stats-block__count">
+                        374
+                    </div>
+                    <div class="stats-block__text">
+                        {{ stats_lang2 }}
+                    </div>
+                </div>
+
+                <div class="stats-block" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <div class="stats-block__count">
+                        17
+                    </div>
+                    <div class="stats-block__text">
+                        {{ stats_lang3 }}
+                    </div>
+                </div>
+
+                <div class="stats-block" data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <div class="stats-block__count">
+                        1:100
+                    </div>
+                    <div class="stats-block__text">
+                        {{ stats_lang4 }}
+                    </div>
+                </div>
+
+                <div class="stats-block" data-aos="zoom-in" data-aos-delay="1400" data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <div class="stats-block__count">
+                        {{ stats_lang5 }}
+                    </div>
+                    <div class="stats-block__text">
+                        {{ stats_lang6 }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="table">
+            <div class="table__center content--center">
+                <div class="spreads-table">
+                    <table class="table-stats table-stats--first">
+                        <tr>
+                            <th class="th-instruments">{{ table_lang1 }}</th>
+                            <th class="th-bid">Bid</th>
+                            <th class="th-offer">Offer</th>
+                            <th class="th-spread">Spread</th>
+                        </tr>
+                        <tr class="table-resp-tr">
+                            <td colspan="4" class="table-in-table">
+                                <div class="table-show-content">
+                                    <table>
+                                        <tr>
+                                            <td width="100">EUR/GBP</td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/USD</td>
+                                            <td><span class="table__green">1.14762</span></td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>USD/JPY</td>
+                                            <td><span class="table__green">1.14762</span></td>
+                                            <td><span class="table__green">1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>AUD/JPY</td>
+                                            <td><span>1.14762</span></td>
+                                            <td><span>1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>GBP/USD</td>
+                                            <td><span class="table__green">1.14762</span></td>
+                                            <td><span class="table__green">1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>AUD/CAD</td>
+                                            <td><span class="table__green">1.14762</span></td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/AUD</td>
+                                            <td><span>1.14762</span></td>
+                                            <td><span>1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/SEK</td>
+                                            <td><span class="table__green">1.14762</span></td>
+                                            <td><span>1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>AUD/CAD</td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td><span>1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/AUD</td>
+                                            <td><span>1.14762</span></td>
+                                            <td><span>1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/SEK</td>
+                                            <td><span>1.14762</span></td>
+                                            <td><span>1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/SEK</td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/SEK</td>
+                                            <td><span>1.14762</span></td>
+                                            <td><span>1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/SEK</td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/SEK</td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/SEK</td>
+                                            <td><span>1.14762</span></td>
+                                            <td><span>1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EUR/SEK</td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td><span class="table__red">1.14762</span></td>
+                                            <td>0.3</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="spreads-text">
+                    <div class="spreads-text__title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        {{ table_lang11 }}
+                    </div>
+
+                    <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        {{ table_lang12 }}
+                    </p>
+                </div>
+
+                <div class="spreads-button" data-aos="fade" data-aos-delay="800" data-aos-duration="600" data-aos-easing="ease-in-out">
+                    <a href="https://po.gerchikco.com/site/signup-individual" target="_blank" class="button btn--banner">
+                        {{ score_lang13 }}
+                    </a>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="bargain">
+            <div class="bargain__center content--center">
+                <div class="bargain-text">
+                    <div class="bargain-text__title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <span v-html="bargain_lang1"></span>
+                    </div>
+
+                    <p class="bargain-text__text" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <span v-html="bargain_lang2"></span>
+                    </p>
+
+					<div data-aos="fade" data-aos-delay="800" data-aos-duration="600" data-aos-easing="ease-in-out">
+	                    <a href="#" class="button btn--bargain sh-click">
+	                    	{{ bargain_lang3 }}
+	                    </a>
+                    </div>
+                </div>
+
+                <div class="bargain-image">
+                    <img src="img/hand.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="score">
+        	<div class="score__center content--center">
+        		<div class="title-blue">
+        			{{ score_lang15 }}
+        		</div>
+
+        		<div class="open-score">
+        			<div class="score-block" data-aos="fade-up" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out">
+        				<div class="score-block__title">
+        					100$
+        				</div>
+
+        				<div class="score-block__text">
+        					<span>{{ score_lang1 }}</span>
+
+        					<p>{{ score_lang2 }}</p>
+        				</div>
+
+        				<a href="https://po.gerchikco.com/site/signup-individual" class="button btn--score" target="_blank">
+                            {{ score_lang13 }}
+        				</a>
+        			</div>
+
+        			<div class="score-block" data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out">
+        				<div class="score-block__title">
+        					500$
+        				</div>
+
+        				<div class="score-block__text">
+        					<span>{{ score_lang3 }}</span>
+        					
+        					<p>{{ score_lang4 }}</p>
+        				</div>
+
+        				<a href="https://po.gerchikco.com/site/signup-individual" class="button btn--score" target="_blank">
+                            {{ score_lang13 }}
+        				</a>
+        			</div>
+
+        			<div class="score-block" data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out">
+        				<div class="score-block__bage">
+        					<span>{{ score_lang14 }}</span>
+        				</div>
+
+        				<div class="score-block__title">
+        					1000$
+        				</div>
+
+        				<div class="score-block__text">
+        					<span>{{ score_lang5 }}</span>
+        					
+        					<p>{{ score_lang6 }}</p>
+        				</div>
+
+        				<a href="https://po.gerchikco.com/site/signup-individual" class="button btn--score" target="_blank">
+                            {{ score_lang13 }}
+        				</a>
+        			</div>
+
+        			<div class="score-block" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-in-out">
+        				<div class="score-block__title">
+        					10 000$
+        				</div>
+
+        				<div class="score-block__text">
+        					<span>{{ score_lang7 }}</span>
+        					
+        					<p>{{ score_lang8 }}</p>
+        				</div>
+
+        				<a href="https://po.gerchikco.com/site/signup-individual" class="button btn--score" target="_blank">
+                            {{ score_lang13 }}
+        				</a>
+        			</div>
+
+        			<div class="score-block" data-aos="fade-up" data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out">
+        				<div class="score-block__title">
+        					25 000$
+        				</div>
+
+        				<div class="score-block__text">
+        					<span>{{ score_lang9 }}</span>
+        					
+        					<p>{{ score_lang10 }}</p>
+        				</div>
+
+        				<a href="https://po.gerchikco.com/site/signup-individual" class="button btn--score" target="_blank">
+                            {{ score_lang13 }}
+        				</a>
+        			</div>
+
+        			<div class="score-block" data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out">
+        				<div class="score-block__title">
+        					100 000$
+        				</div>
+
+        				<div class="score-block__text">
+        					<span>{{ score_lang11 }}</span>
+        					
+        					<p>{{ score_lang12 }}</p>
+        				</div>
+
+        				<a href="https://po.gerchikco.com/site/signup-individual" class="button btn--score" target="_blank">
+                            {{ score_lang13 }}
+        				</a>
+        			</div>
+        		</div>
+
+        		<div class="title-blue title-blue--services">
+        			{{ control_lang7 }}
+        		</div>
+        	</div>
+        </div>
+
+        <div class="control">
+        	<div class="control__center content--center">
+        		<div class="control-video">
+        			<!-- Video -->
+        		</div>
+
+        		<div class="control-text">
+        			<div class="title-blue control--title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+	        			{{ control_lang1 }}
+	        		</div>
+
+	        		<p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">• {{ control_lang2 }}</p>
+	        		<p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" data-aos-easing="ease-in-out">• {{ control_lang3 }}</p>
+	        		<p data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out">• {{ control_lang4 }}</p>
+	        		<p data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000" data-aos-easing="ease-in-out">• {{ control_lang5 }}</p>
+
+	        		<div class="button-margin" data-aos="fade" data-aos-delay="1400" data-aos-duration="1000" data-aos-easing="ease-in-out">
+		        		<a href="https://po.gerchikco.com/site/signup-individual" class="button btn--control" target="_blank">
+                            {{ control_lang6 }}
+		        		</a>
+	        		</div>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="books">
+        	<div class="books__center content--center">
+        		<div class="book-block" data-aos="fade-up" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out">
+        			<div class="book-block__image">
+        				<img src="img/book1.png" alt="" v-if="lang_active == '#ru'">
+                        <img src="img/book1_en.png" alt="" v-if="lang_active == '#en'">
+        			</div>
+        			
+        			<div class="book-desc">
+        				<span>{{ books_lang1 }}</span>
+        				<p>{{ books_lang2 }}</p>
+        			</div>
+        		</div>
+
+        		<div class="book-block" data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out">
+        			<div class="book-block__image">
+        				<img src="img/book2.png" alt="" v-if="lang_active == '#ru'">
+                        <img src="img/book2_en.png" alt="" v-if="lang_active == '#en'">
+        			</div>
+        			
+        			<div class="book-desc">
+        				<span>{{ books_lang3 }}</span>
+        				<p>{{ books_lang4 }}</p>
+        			</div>
+        		</div>
+
+        		<div class="book-block" data-aos="fade-up" data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out">
+        			<div class="book-block__image">
+        				<img src="img/book3.png" alt="" v-if="lang_active == '#ru'">
+                        <img src="img/book3_en.png" alt="" v-if="lang_active == '#en'">
+        			</div>
+        			
+        			<div class="book-desc">
+        				<span>{{ books_lang5 }}</span>
+        				<p>{{ books_lang6 }}</p>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="advantages">
+        	<div class="advantages__center content--center">
+        		<div class="title-blue advantages--title">
+        			{{ advantages_lang1 }}
+        		</div>
+
+        		<div class="verify">
+        			<div class="verify-block">
+        				<div class="verify-block__img">
+                            <a href="https://www.verifymytrade.com/badge/3e4b68eb-b680-4b86-8662-1c7ca03f97cd" target="_blank">
+        					    <img src="img/verify1.png" alt="">
+                            </a>
+        				</div>
+
+        				<div class="verify-block__text">
+                            {{ advantages_lang2 }}
+                        </div>
+        			</div>
+
+        			<div class="verify-block">
+        				<div class="verify-block__img">
+        					<img src="img/verify2.png" alt="">
+        				</div>
+
+        				<div class="verify-block__text">
+                            {{ advantages_lang3 }}
+                        </div>
+        			</div>
+
+        			<div class="verify-block">
+        				<div class="verify-block__img">
+                            <a href="https://gerchikco.com/" target="_blank">
+        					    <img src="img/verify3.png" alt="">
+                            </a>
+        				</div>
+
+        				<div class="verify-block__text">
+                            {{ advantages_lang4 }}
+                        </div>
+        			</div>
+        		</div>
+
+				<div data-aos="fade" data-aos-delay="0" data-aos-duration="500" data-aos-easing="ease-in-out">
+	        		<a href="https://po.gerchikco.com/site/signup-individual" class="button btn--advantages" target="_blank">
+                        {{ advantages_lang5 }}
+	        		</a>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="registration">
+            <div class="registration__center content--center">
+                <div class="registration-text">
+                    <div class="title-blue registration--title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <span v-html="registration_lang1"></span>
+                    </div>
+
+                    <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        {{ registration_lang2 }}
+                    </p>
+                </div>
+
+                <div class="registration-form">
+                    <form method="post">
+                        <div class="form-group">
+                            <label for="inputName">{{ registration_lang3 }}*</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputName">{{ registration_lang4 }}*</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="form-group tel-margin">
+                            <label for="inputName">{{ registration_lang5 }}*</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        <div class="form-group count-margin">
+                            <select class="custom-select">
+                                <option selected>10000 USD</option>
+                                <option value="1">5000 USD</option>
+                                <option value="2">1000 USD</option>
+                            </select>
+                        </div>
+
+                        <div class="g-recaptcha" data-sitekey="6Le-zngUAAAAAErKdexmeJ4InXOl2TT4_ydxV1o2"></div>
+
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">{{ registration_lang6 }}</label>
+                        </div>
+
+						<div data-aos="fade" data-aos-delay="300" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        	<button type="submit" class="button btn--registration">
+                                {{ registration_lang7 }}
+                        	</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__center content--center">
+                <div class="footer-text footer-text-first">
+                    <div class="footer-text__block">
+                        <span v-html="footer_lang1"></span>
+                    </div>
+                    <div class="footer-text__block">
+                        <span v-html="footer_lang2"></span>
+                        <i>
+                            <span v-html="footer_lang3"></span>
+                        </i>
+                    </div>
+                </div>
+                <div class="footer-text footer-text-second">
+                    <div class="footer-text__block">
+                        <span v-html="footer_lang4"></span>
+                    </div>
+                    <div class="footer-text__block">
+                        <span v-html="footer_lang5"></span>
+                    </div>
+                </div>
+
+                <ul class="social" v-if="lang_active == '#ru'">
+                    <li><a href="https://www.facebook.com/gerchikco/?ref=bookmarks" target="_blank"><img src="img/social/facebook.svg" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/gerchikco/" target="_blank"><img src="img/social/instagram.svg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCh8-SAbji1gKC1g55O4IcBA" target="_blank"><img src="img/social/youtube.svg" alt=""></a></li>
+                    <li><a href="https://t.me/gerchikco_info" target="_blank"><img src="img/social/telegram.svg" alt=""></a></li>
+                    <li><a href="https://vk.com/gerchikcogroup" target="_blank"><img src="img/social/vk.svg" alt=""></a></li>
+                    <li><a href="https://twitter.com/GerchikandCo" target="_blank"><img src="img/social/twitter.svg" alt=""></a></li>
+                </ul>
+
+                <ul class="social" v-if="lang_active == '#en'">
+                    <li><a href="https://www.facebook.com/groups/gerchikofficial/?ref=bookmarks" target="_blank"><img src="img/social/facebook.svg" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/50shadesofforex/" target="_blank"><img src="img/social/instagram.svg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC87XGSECmhLbSIip-BD51UQ" target="_blank"><img src="img/social/youtube.svg" alt=""></a></li>
+                    <li><a href="https://t.me/gerchikco_info" target="_blank"><img src="img/social/telegram.svg" alt=""></a></li>
+                    <li><a href="https://twitter.com/GerchikCo" target="_blank"><img src="img/social/twitter.svg" alt=""></a></li>
+                </ul>
+            </div>
+
+
+            <div class="hot-line">
+                <span v-html="footer_lang6"></span>
+            </div>
+
+        </div>
+	</div>
+
+    <script type='text/javascript'>
+        /*
+        (function(d, w, m) {
+            window.supportAPIMethod = m;
+            var s = d.createElement('script');
+            s.type ='text/javascript'; s.id = 'supportScript'; s.charset = 'utf-8';
+            s.async = true;
+            var id = '586700a6fd9515a28f64542193b53f11';
+            s.src = 'https://admin.verbox.ru/support/support.js?h='+id;
+            var sc = d.getElementsByTagName('script')[0];
+            w[m] = w[m] || function() { (w[m].q = w[m].q || []).push(arguments); };
+            if (sc) sc.parentNode.insertBefore(s, sc);
+            else d.documentElement.firstChild.appendChild(s);
+        })(document, window, 'Verbox');
+        */
+    </script>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script src="js/translate.js"></script>
+    <script src="libs/aos.js"></script>
+    <script src="libs/intlTelInput.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+    <script src="libs/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="libs/socket.io.js"></script>
+
+    <script src="js/spread.js" defer></script>
+
+</body>
+</html>

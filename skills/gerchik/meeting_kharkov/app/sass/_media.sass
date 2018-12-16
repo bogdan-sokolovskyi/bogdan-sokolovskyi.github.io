@@ -1,0 +1,914 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+@media all and (max-width: 1400px)
+	#section03
+		.content-text h1
+			font-size: 41px
+		.countdown
+			div
+				p
+					font-size: 104px
+					span
+						font-size: 20px
+
+// ≥1200px
++media-breakpoint-down(lg)
+	#section06 .partners .content
+		img
+			width: 228px
+	#section08 .partners .content
+		a img
+			width: 140px
+
+// ≥992px
++media-breakpoint-down(md)
+	#section02
+		img.right-image
+			margin-left: 0
+
+
+@media all and (max-width: 1199px) and (min-width: 768px)
+	.header-logo
+		margin-left: 0
+		display: flex
+		width: 190px
+		img
+			width: 90%
+	.header-button
+		width: 266px
+		margin-right: 0
+		a
+			font-size: 15px
+	.header-menu ul a
+		margin: 0 18px
+		font-size: 16px
+	#section01 .content-block
+		width: 700px
+		height: 470px
+		p
+			font-size: 26px
+			margin-bottom: 54px
+	#section01 .content-block h1
+		font-size: 58px
+		margin-bottom: 50px
+	#section01 .content-block h1 span
+		font-size: 41px
+	#section01 .content-block-btn a
+		font-size: 22px
+		padding: 10px 20px
+	#section02
+		.right-image
+			width: 100%
+		h3
+			margin: 19px 0 30px
+			font-size: 30px
+		p
+			font-size: 20px
+			margin: 0 30px 27px 0
+		.btn-block a
+			font-size: 18px
+			width: 200px
+	#section03
+		.content-text h1
+			font-size: 30px
+		.countdown
+			div
+				padding: 4px 0 0
+				p
+					font-size: 80px!important
+					margin: 0!important
+					line-height: 1.1!important
+					span
+						font-size: 17px
+	#spikers
+		.content
+			h3
+				font-size: 30px
+			p
+				font-size: 20px
+	.speakers-section h1
+		font-size: 30px
+	#section05
+		h2
+			font-size: 30px
+		p
+			font-size: 20px
+			margin-bottom: 30px
+		.item-blocks .item
+			font-size: 20px
+		.btn-block a
+			font-size: 30px
+	#section06,
+	#section08
+		h1
+			font-size: 30px
+		p
+			font-size: 20px
+	#section07 h1
+		font-size: 30px
+	footer
+		padding: 60px 0 80px
+		p
+			font-size: 20px
+			margin-bottom: 20px
+
+@media all and (max-width: 991px) and (min-width: 768px)
+	.header-button
+		width: 240px
+		margin-right: 0
+		a
+			font-size: 13px
+	.header-menu ul a
+		margin: 0 8px
+		font-size: 14px
+	#section01 .content-block
+		width: 555px
+		height: 426px
+		p
+			font-size: 22px
+			margin-bottom: 40px
+	#section01 .content-block h1
+		font-size: 46px
+		margin-bottom: 40px
+	#section01 .content-block h1 span
+		font-size: 33px
+	#section01 .content-block-btn a
+		font-size: 18px
+		padding: 6px 14px
+	#section02
+		.right-image
+			width: 100%
+		h3
+			margin: 0 0 30px
+			font-size: 28px
+		p
+			font-size: 16px
+			margin: 0 0 16px 0
+		.btn-block a
+			font-size: 14px
+	#section03
+		.content-text h1
+			font-size: 28px
+		.countdown
+			div
+				p
+					font-size: 70px!important
+	#spikers
+		.content
+			h3
+				font-size: 28px
+			p
+				font-size: 16px
+	.speakers-section h1
+		font-size: 28px
+	.speakers-item .time
+		font-size: 24px
+	.speakers-item .description h4
+		font-size: 22px
+	.speakers-item .description p
+		font-size: 18px
+	.speakers-item .description blockquote
+		font-size: 20px
+
+	#section05
+		h2
+			font-size: 28px
+		p
+			font-size: 16px
+			margin-bottom: 25px
+		.item-blocks
+			margin-bottom: 30px
+			.item
+				font-size: 16px
+		.btn-block a
+			font-size: 26px
+		.get-text,
+		.connect-text
+			font-size: 26px
+			margin-bottom: 30px
+	#section06
+		h1
+			font-size: 28px
+		p
+			font-size: 16px
+		.partners .content
+			margin-top: 10px
+			img
+				max-width: 168px
+	#section07 h1
+		font-size: 28px
+	footer
+		padding: 40px 0 60px
+		p
+			font-size: 18px
+			margin-bottom: 15px
+	#section08
+		h1
+			font-size: 28px
+		p
+			font-size: 16px
+		.partners .content
+			margin-top: 10px
+			a img
+				width: 100px
+		.partners-offer .sendpulse-form .sp-form[sp-id="106251"]
+			width: 100%
+
+
+// ≥768px
++media-breakpoint-down(sm)
+	.m_sec_hidden
+		display: none!important
+	.m_sec_visible
+		display: block!important
+	.btn-block-m
+		a
+			display: block
+			text-align: center
+			font-size: 22px
+			font-family: arial-bold
+			padding: 4px 0
+			&.accent-btn
+				border: 1px solid #f15a23
+				background-color: #f15a23
+				color: #fff
+				margin-bottom: 8px
+			&.transparent-btn
+				border: 1px solid #f15a23
+				background-color: #fff
+				color: #f15a23
+	header
+		position: relative
+		height: 84px
+	.header-menu,
+	.header-button
+		display: none
+	nav
+		justify-content: center
+	.header-logo
+		margin-left: 0
+		text-align: center
+		img
+			width: 69%
+	#section01
+		padding-top: 0
+		.bg-cover
+			padding: 16px 0 34px
+			background-image: url(../img/section-1-mob.jpg)
+		.content
+			margin-bottom: 30px
+		.content-block
+			width: 92%
+			height: 100%
+			padding: 36px 0
+			p
+				margin-bottom: 34px
+			h1
+				font-size: 44px
+				margin-bottom: 20px
+				span
+					font-size: 29px
+					line-height: 1.5
+					margin-top: 7px
+		.content-btn-m
+			width: 92%
+			margin: 0 auto
+			a
+				display: block
+				text-align: center
+				font-size: 22px
+				font-family: arial-bold
+				padding: 4px 0
+				&.accent-btn
+					border: 1px solid #f15a23
+					background-color: #f15a23
+					color: #fff
+					margin-bottom: 8px
+				&.transparent-btn
+					border: 1px solid #f15a23
+					background-color: #fff
+					color: #f15a23
+	#section02
+		padding: 0 3%
+		h3
+			text-align: center
+			margin: 9px 0 22px
+			&:before
+				bottom: -7px
+				right: 29%
+		p
+			font-size: 19px
+			margin: 0 0 23px 0
+		.section03-p
+			margin: 0 28px 13px 0
+		.section03-btn-m
+			margin: 30px 0 0
+			a
+				display: block
+				text-align: center
+				font-size: 22px
+				font-family: arial-bold
+				padding: 4px 0
+				&.accent-btn
+					border: 1px solid #f15a23
+					background-color: #f15a23
+					color: #fff
+					margin-bottom: 8px
+				&.transparent-btn
+					border: 1px solid #f15a23
+					background-color: #fff
+					color: #f15a23
+	.section03
+		display: flex!important
+		margin: 0 0 24px
+		.content-text h1
+			font-size: 17px
+			letter-spacing: 0
+		.countdown
+			div
+				padding: 4px 0 0
+				p
+					font-size: 36px!important
+					margin: 0!important
+					line-height: 1.1!important
+					span
+						font-size: 17px
+	#spikers
+		padding: 48px 0 0
+		.bx-viewport
+			height: auto!important
+		.bx-wrapper
+			background-color: #97d8f6
+			padding-bottom: 30px
+			.bx-controls
+				width: 100%
+				position: relative
+				&-direction
+					width: 100%
+					position: relative
+				a
+					background-repeat: no-repeat
+					background-size: contain
+					text-decoration: none
+					position: absolute
+					top: -53px
+					color: #fff
+					width: 57px
+					height: 52px
+					text-align: center
+					transition: linear .4s
+					z-index: 10
+					cursor: pointer
+					&.bx-prev
+						background-image: url(../img/prev-speakers.png)
+						left: 0
+					&.bx-next
+						background-image: url(../img/next-speakers.png)
+						right: 0
+		.content
+			padding-right: 0
+			h3
+				display: block
+				text-align: center
+				margin: 0 0 24px
+				&::before
+					bottom: -5px
+					right: 2%
+			p
+				font-size: 19px
+				margin: 0 3% 14px
+		.btn-block
+			padding: 24px 8%
+			a
+				display: block
+				text-align: center
+				font-size: 22px
+				font-family: arial-bold
+				padding: 4px 0
+				&.accent-btn
+					border: 1px solid #f15a23
+					background-color: #f15a23
+					color: #fff
+					margin-bottom: 8px
+				&.transparent-btn
+					border: 1px solid #f15a23
+					background-color: #fff
+					color: #f15a23
+
+	.speakersM
+		&-item
+			blockquote
+				margin: 0
+				padding: 0 14%
+				font-size: 17px
+				line-height: 1.1
+				text-align: center
+				font-weight: bold
+			> div
+				display: flex
+				padding: 11px 5% 8px
+				.photo
+					width: 38%
+					float: left
+					padding: 0 4px 3px 0
+					margin-right: 6px
+					img
+						width: 100%
+						height: auto
+				.description
+					//width: 62%
+					.time
+						font-size: 35px
+						line-height: 1
+					h4
+						font-size: 18px
+						line-height: 1.3
+						margin-bottom: 4px
+					p
+						font-size: 17px
+						line-height: 1.2
+						margin-bottom: 0
+
+	#section05
+		background-color: #ffffff
+		padding: 23px 4% 46px
+		.get-text
+			color: $text
+			font-weight: bold
+			font-size: 30px
+			letter-spacing: 1px
+			margin-bottom: 10px
+		.item-blocks
+			display: block
+			margin-bottom: 22px
+			.item
+				display: block
+				width: 100%
+				border: 1px solid #09a3e9
+				height: 111px
+				padding: 0 12px
+				font-size: 19px
+				display: flex
+				justify-content: center
+				align-items: center
+				margin-bottom: 10px
+		.connect-text
+			color: $main
+			font-size: 22px
+			font-weight: bold
+			margin-bottom: 27px
+	#section06,
+	#section08
+		padding: 8px 0 30px
+		h1
+			margin-bottom: 25px
+			&:before
+				bottom: -10px
+				left: -18px
+				width: 101%
+				margin-left: 0
+		p
+			font-size: 21px
+			line-height: 1.2
+		.partners-mob
+			display: flex!important
+			align-items: flex-end
+			img
+				max-width: 150px
+				height: auto
+		.bx-wrapper
+			padding: 30px 0
+		.partners-offer
+			margin: 5px 0 10px
+			a
+				font-size: 21px
+				padding: 0 10px
+				line-height: 1.2
+				display: inline-block
+				&:before
+					width: 234px
+					height: 2px
+					margin-left: -117px
+					left: 50%
+					bottom: -14px
+	#section08
+		.partners-mob
+			align-items: center
+	#section07
+		padding: 12px 0 30px
+		h1
+			margin-bottom: 27px
+			&:before
+				bottom: -6px
+				margin-left: 0
+				width: 100%
+				left: -33%
+		.bxslider-reviews
+			margin-top: 5px
+			margin-bottom: 31px
+		.btn-block-m
+			margin: 0 8%
+	footer
+		padding: 34px 0 45px
+		.footer-img
+			margin-bottom: 25px
+		p
+			font-size: 21px
+			margin-bottom: 23px
+			line-height: 1.2
+		.footer-map
+			margin-top: 6px
+
+	#section08 .partners-offer .sendpulse-form .sp-form[sp-id="106251"]
+		width: 100%
+	#section06 .partners-offer h3,
+	#section08 .partners-offer h3
+		font-size: 21px
+		margin: 0 20px .5rem
+		&:before
+			width: 232px
+			margin-left: -116px
+			left: 50%
+
+// ≥576px
++media-breakpoint-down(xs)
+
+@media all and (max-width: 376px)
+	header
+		height: 76px
+	.header-logo img
+		width: 62%
+	#section01
+		.content
+			margin-bottom: 28px
+		.content-block
+			padding: 29px 0
+			p
+				margin-bottom: 30px
+				font-size: 27px
+			h1
+				font-size: 39px
+				span
+					font-size: 27px
+					line-height: 1.5
+		.content-btn-m a
+			font-size: 20px
+			padding: 3px 0
+		.bg-cover
+			padding: 16px 0 30px
+	#section02
+		h3
+			font-size: 31px
+			line-height: 1.5
+			margin: 14px 0 19px
+			&:before
+				right: 29%
+		p
+			font-size: 18px
+			margin: 0 0 18px 0
+	.section03
+		.content-text
+			h1
+				font-size: 15px
+		.countdown
+			div
+				padding: 4px 0 0
+				p
+					font-size: 30px!important
+					line-height: 1.1!important
+					span
+						font-size: 15px
+	#section02 .section03-p
+		line-height: 1.1
+		margin: 0 0 15px 0
+	#section02 .section03-btn-m
+		margin: 25px 0 0
+		a
+			font-size: 20px
+	#spikers
+		padding: 43px 0 0
+		.content
+			h3
+				margin: 0 0 20px
+				font-size: 31px
+				&:before
+					right: 3%
+			p
+				font-size: 17px
+	.speakersM-item>div .description .time
+		font-size: 32px
+	.speakersM-item>div .description h4
+		font-size: 16px
+		margin-bottom: 2px
+	.speakersM-item>div .description p
+		font-size: 15px
+	#spikers .bx-wrapper .bx-controls a
+		top: -53px
+		width: 52px
+		height: 48px
+	.speakersM-item blockquote
+		font-size: 15px
+	#spikers .bx-wrapper .bx-controls a
+		top: -49px
+	#spikers .bx-wrapper
+		padding-bottom: 27px
+	#spikers .btn-block
+		padding: 21px 8%
+	#spikers .btn-block a
+		font-size: 20px
+		padding: 3px 0
+	#section05
+		padding: 23px 4% 40px
+		.get-text
+			font-size: 27px
+	#section05 .item-blocks .item
+		height: 101px
+		font-size: 17px
+		margin-bottom: 8px
+	#section05 .connect-text
+		font-size: 20px
+		margin-bottom: 22px
+	.btn-block-m a
+		font-size: 20px
+		padding: 3px 0
+	#section06 h1,
+	#section08 h1
+		font-size: 32px
+		margin-bottom: 22px
+	#section06 h1:before,
+	#section08 h1:before
+		left: -14px
+	#section06 p,
+	#section0 p
+		font-size: 19px
+	#section06 .partners-offer a,
+	#section08 .partners-offer a
+		font-size: 19px
+		padding: 0 20px
+	#section06 .partners-offer a:before,
+	#section08 .partners-offer a:before
+		width: 212px
+		margin-left: -106px
+	#section07
+		padding: 3px 0 27px
+		h1
+			font-size: 33px
+			margin-bottom: 19px
+		.bxslider-reviews
+			margin-bottom: 24px
+	footer
+		.footer-img
+			margin-bottom: 18px
+			img
+				width: 87%
+		p
+			font-size: 19px
+
+
+@media all and (max-width: 361px)
+	#section02 h3
+		font-size: 29px
+		&:before
+			right: 30%
+	#spikers .content h3
+		font-size: 29px
+	#section06 h1,
+	#section08 h1
+		font-size: 30px
+	#section07 h1
+		font-size: 30px
+
+@media all and (max-width: 321px)
+	header
+		height: 65px
+	.header-logo img
+		width: 55%
+	#section01 .bg-cover
+		padding: 12px 0 27px
+	#section01 .content-block p
+		margin-bottom: 26px
+		font-size: 23px
+	#section01 .content-block h1
+		font-size: 34px
+		margin-bottom: 11px
+	#section01 .content-block h1 span
+		font-size: 23px
+		margin-top: 4px
+	#section01 .content
+		margin-bottom: 24px
+	#section01 .content-btn-m a
+		font-size: 17px
+		padding: 2px 0
+	#section02 h3
+		font-size: 26px
+		margin: 11px 0 17px
+	#section02 p
+		font-size: 15px
+		margin: 0 0 14px 0
+	.section03
+		margin: 0 0 21px
+		.content-text h1
+			font-size: 13px
+		.countdown
+			div
+				p
+					font-size: 25px!important
+					span
+						font-size: 13px
+	#section02 .section03-p
+		font-size: 14px
+		line-height: 1.2
+		margin: 0 14px 15px 0
+	#section02 .section03-btn-m
+		margin: 21px 0 0
+	#section02 .section03-btn-m a
+		font-size: 17px
+		padding: 3px 0
+	#spikers
+		padding: 37px 0 0
+	#spikers .content h3
+		font-size: 26px
+	#spikers .content h3::before
+		right: 3%
+	#spikers .content p
+		font-size: 14px
+		line-height: 1.25
+		margin: 0 3% 9px
+	.speakersM-item>div .photo
+		width: 39%
+	.speakersM-item>div .description .time
+		font-size: 26px
+	.speakersM-item>div .description h4
+		font-size: 13px
+		margin-bottom: 6px
+	.speakersM-item>div .description p
+		font-size: 13px
+	.speakersM-item blockquote
+		font-size: 13px
+	#spikers .bx-wrapper .bx-controls a
+		top: -42px
+		width: 45px
+		height: 40px
+	#spikers .bx-wrapper
+		padding-bottom: 25px
+	#spikers .btn-block
+		padding: 18px 8%
+	#spikers .btn-block a
+		font-size: 17px
+	#section05
+		padding: 16px 3% 30px
+	#section05 .get-text
+		font-size: 23px
+	#section05 .item-blocks .item
+		height: 86px
+		font-size: 15px
+		margin-bottom: 6px
+		padding: 0 6px
+	#section05 .connect-text
+		font-size: 17px
+		margin-bottom: 18px
+	.btn-block-m a
+		font-size: 17px
+	#section06 h1,
+	#section08 h1
+		font-size: 27px
+	#section06 h1:before,
+	#section08 h1:before
+		width: 103%
+	#section06 p,
+	#section08 p
+		font-size: 16px
+	#section06 .partners-mob img,
+	#section08 .partners-mob img
+		max-width: 125px
+	#section06 .partners-offer a,
+	#section08 .partners-offer a
+		font-size: 16px
+	#section07
+		padding: 2px 0 22px
+		h1
+			font-size: 26px
+			margin-bottom: 15px
+	.bxslider-reviews .youtube
+		height: 180px
+	#section07 .bxslider-reviews
+		margin-bottom: 20px
+	.btn-block-m a.accent-btn
+		margin-bottom: 7px
+
+	footer
+		padding: 27px 0 30px
+		.footer-img
+			margin-bottom: 18px
+			img
+				width: 78%
+		p
+			font-size: 16px
+			margin-bottom: 19px
+		.footer-map
+			font-size: 11px
+
+
+/*==========  Mobile First  ==========*/
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
+
+
+//#sendpulse-1
+//	position: relative
+//	.sp-form-outer
+//		position: relative
+//		width: 100%
+//		height: 100%
+//
+////.wepster-portal-form
+////	display: none
+//
+//.sp-control-label
+//	display: none !important
+//
+//.sp-form
+//	background: 0 0 !important
+//	padding: 0 !important
+//	-webkit-border-radius: 0 !important
+//	border-radius: 0 !important
+//	border-width: 0 !important
+//	margin: 0 auto !important
+//	input
+//		color: #fff !important
+//
+//.intl-tel-input
+//	&.separate-dial-code
+//		.selected-dial-code, &.allow-dropdown.iti-sdc-4 .selected-flag
+//			color: #fff !important
+//	.country-list
+//		z-index: 100 !important
+//
+//.sp-form-control
+//	height: 28px !important
+//	font-size: 12px !important
+//	border-color: #fff !important
+//	-webkit-border-radius: 0 !important
+//	border-radius: 0 !important
+//	border-right: 0 !important
+//	&::-webkit-input-placeholder, &::-moz-placeholder, &:-ms-input-placeholder, &::-ms-input-placeholder, &::placeholder
+//		opacity: 0.7 !important
+//
+//.sp-form
+//	&[sp-id="106251"] .sp-form-control
+//		background-color: #4f7e97 !important
+//
+//.sp-form-horizontal .sp-element-container .sp-field
+//	padding: 0 !important
+//	width: 33.33% !important
+//	min-height: 28px !important
+//
+//.sp-form
+//	.sp-button
+//		font-size: 14px !important
+//		height: 28px !important
+//		line-height: 1 !important
+//		-webkit-border-radius: 0 !important
+//		border-radius: 0 !important
+//		background-color: #fff !important
+//		color: #914b92 !important
+//		width: 100% !important
+//		font-weight: 400 !important
+//		&:focus, &:hover
+//			top: 0 !important
+//			opacity: 1 !important
+//			font-weight: 700 !important
+//	.sp-field > div[style] > p
+//		text-align: center !important
+//		color: #fff !important
+//		margin-bottom: 10px !important
+//		font-size: 11px
+//
+//.sp-message
+//	&.sp-message-error, &.sp-message-success
+//		margin: 0 !important
+//		background-color: #4f7e97
+//		border: 1px solid #fff
+//		-webkit-box-shadow: inset 0 0 0 1px #7b9fb1
+//		box-shadow: inset 0 0 0 1px #7b9fb1
+//		padding: 14px
+//	&.sp-message-error p, &.sp-message-success p
+//		color: #fff !important
+//		font-size: 12px !important
+//		margin-bottom: 0 !important
+//	&.sp-message-error strong, &.sp-message-success strong
+//		font-weight: 400 !important
+//
+//.sp-form[sp-id="106251"] .sp-message
+//	&.sp-message-error, &.sp-message-success
+//		background-color: #7033af !important
