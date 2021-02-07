@@ -705,7 +705,7 @@ p {
   background: #F0E68C;
 }
 .progress-bar-2 {
-  background: #3b658a;
+  background: #f0db4f;
 }
 .progress-bar-3 {
   background: #ce5f5f;
@@ -723,13 +723,16 @@ p {
   background: #873E95;
 }
 .progress-bar-8 {
-  background: #F4BF00;
+  background: #795548;
 }
 .progress-bar-9 {
   background: #61dafb;
 }
 .progress-bar-10 {
   background: #0076c7;
+}
+.progress-bar-11 {
+  background: #b9f6ca;
 }
 /* ==========================================================
 ! 11. Section: Portfolio
