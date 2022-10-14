@@ -73,41 +73,6 @@ $(document).ready(function(){
     $(this).find('p').removeClass('fadeInUp');
   });
 
-  //Contact Form Validator and Ajax Sender
-  $("#contactForm").validate({
-    submitHandler: function(form) {
-      $.ajax({
-        type: "POST",
-        url: "php/contact-form.php",
-        data: {
-          "name": $("#contactForm #name").val(),
-          "email": $("#contactForm #email").val(),
-          "subject": $("#contactForm #subject").val(),
-          "message": $("#contactForm #message").val()
-        },
-        dataType: "json",
-        success: function (data) {
-          if (data.response == "success") {
-            $("#contactSuccess").fadeIn(300);
-            $("#contactError").addClass("hidden");
-
-            $("#contactForm #name, #contactForm #email, #contactForm #subject, #contactForm #message")
-              .val("")
-              .blur()
-              .closest(".control-group")
-              .removeClass("success")
-              .removeClass("error");              
-            
-          } else {
-            $("#contactError").fadeIn(300);
-            $("#contactSuccess").addClass("hidden");
-          }
-        }
-
-      });
-    }
-  });
-
   //Modal for Contact Form
   $('.modal-wrap').click(function(){
     $('.modal-wrap').fadeOut(300);
