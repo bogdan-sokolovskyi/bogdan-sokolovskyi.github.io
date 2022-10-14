@@ -551,7 +551,7 @@ p {
 }
 @media (min-width:992px) {
   .timeline-bg {
-    background: url('../img/timeline-bg.png') repeat-x center center fixed;
+    background: #249991;
   }
 }
 .bg1 {
